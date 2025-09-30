@@ -1,0 +1,31 @@
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code / JetBrains Rider
+.vscode/
+.idea/
+
+# NuGet packages
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+
+# Logs
+*.log
+
+# Environment and secrets
+.env
+appsettings.Development.json
+appsettings.Local.json
+
+# Publish output
+out/
+publish/

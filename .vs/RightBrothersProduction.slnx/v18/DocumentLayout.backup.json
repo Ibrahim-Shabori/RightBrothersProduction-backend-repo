@@ -1,0 +1,555 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|c:\\users\\ibrahim mohamed\\source\\repos\\rightbrothersproduction\\rightbrothersproduction.api\\extensions\\appconfigurationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|solutionrelative:rightbrothersproduction.api\\extensions\\appconfigurationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|c:\\users\\ibrahim mohamed\\source\\repos\\rightbrothersproduction\\rightbrothersproduction.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|solutionrelative:rightbrothersproduction.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|c:\\users\\ibrahim mohamed\\source\\repos\\rightbrothersproduction\\rightbrothersproduction.api\\extensions\\appbuilderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|solutionrelative:rightbrothersproduction.api\\extensions\\appbuilderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|c:\\users\\ibrahim mohamed\\source\\repos\\rightbrothersproduction\\rightbrothersproduction.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|solutionrelative:rightbrothersproduction.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|c:\\users\\ibrahim mohamed\\source\\repos\\rightbrothersproduction\\rightbrothersproduction.api\\controllers\\accountendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|solutionrelative:rightbrothersproduction.api\\controllers\\accountendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|c:\\users\\ibrahim mohamed\\source\\repos\\rightbrothersproduction\\rightbrothersproduction.api\\controllers\\identityuserendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|solutionrelative:rightbrothersproduction.api\\controllers\\identityuserendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D85DDF4B-A06F-C9D3-0953-B69738EA8CCF}|RightBrothersProduction.Models\\RightBrothersProduction.Models.csproj|c:\\users\\ibrahim mohamed\\source\\repos\\rightbrothersproduction\\rightbrothersproduction.models\\normalrequestvote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D85DDF4B-A06F-C9D3-0953-B69738EA8CCF}|RightBrothersProduction.Models\\RightBrothersProduction.Models.csproj|solutionrelative:rightbrothersproduction.models\\normalrequestvote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|c:\\users\\ibrahim mohamed\\source\\repos\\rightbrothersproduction\\rightbrothersproduction.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|solutionrelative:rightbrothersproduction.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D85DDF4B-A06F-C9D3-0953-B69738EA8CCF}|RightBrothersProduction.Models\\RightBrothersProduction.Models.csproj|c:\\users\\ibrahim mohamed\\source\\repos\\rightbrothersproduction\\rightbrothersproduction.models\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D85DDF4B-A06F-C9D3-0953-B69738EA8CCF}|RightBrothersProduction.Models\\RightBrothersProduction.Models.csproj|solutionrelative:rightbrothersproduction.models\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A378A9C3-C401-387C-25CA-CD6B59BD0FDC}|RightBrothersProduction.DataAccess\\RightBrothersProduction.DataAccess.csproj|c:\\users\\ibrahim mohamed\\source\\repos\\rightbrothersproduction\\rightbrothersproduction.dataaccess\\seed\\identityseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A378A9C3-C401-387C-25CA-CD6B59BD0FDC}|RightBrothersProduction.DataAccess\\RightBrothersProduction.DataAccess.csproj|solutionrelative:rightbrothersproduction.dataaccess\\seed\\identityseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A378A9C3-C401-387C-25CA-CD6B59BD0FDC}|RightBrothersProduction.DataAccess\\RightBrothersProduction.DataAccess.csproj|c:\\users\\ibrahim mohamed\\source\\repos\\rightbrothersproduction\\rightbrothersproduction.dataaccess\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A378A9C3-C401-387C-25CA-CD6B59BD0FDC}|RightBrothersProduction.DataAccess\\RightBrothersProduction.DataAccess.csproj|solutionrelative:rightbrothersproduction.dataaccess\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|c:\\users\\ibrahim mohamed\\source\\repos\\rightbrothersproduction\\rightbrothersproduction.api\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|solutionrelative:rightbrothersproduction.api\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D85DDF4B-A06F-C9D3-0953-B69738EA8CCF}|RightBrothersProduction.Models\\RightBrothersProduction.Models.csproj|c:\\users\\ibrahim mohamed\\source\\repos\\rightbrothersproduction\\rightbrothersproduction.models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D85DDF4B-A06F-C9D3-0953-B69738EA8CCF}|RightBrothersProduction.Models\\RightBrothersProduction.Models.csproj|solutionrelative:rightbrothersproduction.models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|c:\\users\\ibrahim mohamed\\source\\repos\\rightbrothersproduction\\rightbrothersproduction.api\\extensions\\efcoreextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|solutionrelative:rightbrothersproduction.api\\extensions\\efcoreextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D85DDF4B-A06F-C9D3-0953-B69738EA8CCF}|RightBrothersProduction.Models\\RightBrothersProduction.Models.csproj|c:\\users\\ibrahim mohamed\\source\\repos\\rightbrothersproduction\\rightbrothersproduction.models\\userloginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D85DDF4B-A06F-C9D3-0953-B69738EA8CCF}|RightBrothersProduction.Models\\RightBrothersProduction.Models.csproj|solutionrelative:rightbrothersproduction.models\\userloginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D85DDF4B-A06F-C9D3-0953-B69738EA8CCF}|RightBrothersProduction.Models\\RightBrothersProduction.Models.csproj|c:\\users\\ibrahim mohamed\\source\\repos\\rightbrothersproduction\\rightbrothersproduction.models\\normalrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D85DDF4B-A06F-C9D3-0953-B69738EA8CCF}|RightBrothersProduction.Models\\RightBrothersProduction.Models.csproj|solutionrelative:rightbrothersproduction.models\\normalrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D85DDF4B-A06F-C9D3-0953-B69738EA8CCF}|RightBrothersProduction.Models\\RightBrothersProduction.Models.csproj|c:\\users\\ibrahim mohamed\\source\\repos\\rightbrothersproduction\\rightbrothersproduction.models\\irequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D85DDF4B-A06F-C9D3-0953-B69738EA8CCF}|RightBrothersProduction.Models\\RightBrothersProduction.Models.csproj|solutionrelative:rightbrothersproduction.models\\irequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D85DDF4B-A06F-C9D3-0953-B69738EA8CCF}|RightBrothersProduction.Models\\RightBrothersProduction.Models.csproj|c:\\users\\ibrahim mohamed\\source\\repos\\rightbrothersproduction\\rightbrothersproduction.models\\detailedrequestvote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D85DDF4B-A06F-C9D3-0953-B69738EA8CCF}|RightBrothersProduction.Models\\RightBrothersProduction.Models.csproj|solutionrelative:rightbrothersproduction.models\\detailedrequestvote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D85DDF4B-A06F-C9D3-0953-B69738EA8CCF}|RightBrothersProduction.Models\\RightBrothersProduction.Models.csproj|c:\\users\\ibrahim mohamed\\source\\repos\\rightbrothersproduction\\rightbrothersproduction.models\\detailedrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D85DDF4B-A06F-C9D3-0953-B69738EA8CCF}|RightBrothersProduction.Models\\RightBrothersProduction.Models.csproj|solutionrelative:rightbrothersproduction.models\\detailedrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D85DDF4B-A06F-C9D3-0953-B69738EA8CCF}|RightBrothersProduction.Models\\RightBrothersProduction.Models.csproj|c:\\users\\ibrahim mohamed\\source\\repos\\rightbrothersproduction\\rightbrothersproduction.models\\dtos\\googlelogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D85DDF4B-A06F-C9D3-0953-B69738EA8CCF}|RightBrothersProduction.Models\\RightBrothersProduction.Models.csproj|solutionrelative:rightbrothersproduction.models\\dtos\\googlelogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|c:\\users\\ibrahim mohamed\\source\\repos\\rightbrothersproduction\\rightbrothersproduction.api\\services\\identity\\arabicidentityerrordescriber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|solutionrelative:rightbrothersproduction.api\\services\\identity\\arabicidentityerrordescriber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|c:\\users\\ibrahim mohamed\\source\\repos\\rightbrothersproduction\\rightbrothersproduction.api\\services\\skewedclock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|solutionrelative:rightbrothersproduction.api\\services\\skewedclock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|c:\\users\\ibrahim mohamed\\source\\repos\\rightbrothersproduction\\rightbrothersproduction.api\\services\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|solutionrelative:rightbrothersproduction.api\\services\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|c:\\users\\ibrahim mohamed\\source\\repos\\rightbrothersproduction\\rightbrothersproduction.api\\extensions\\swaggerextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|solutionrelative:rightbrothersproduction.api\\extensions\\swaggerextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|c:\\users\\ibrahim mohamed\\source\\repos\\rightbrothersproduction\\rightbrothersproduction.api\\extensions\\identityextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|solutionrelative:rightbrothersproduction.api\\extensions\\identityextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D85DDF4B-A06F-C9D3-0953-B69738EA8CCF}|RightBrothersProduction.Models\\RightBrothersProduction.Models.csproj|c:\\users\\ibrahim mohamed\\source\\repos\\rightbrothersproduction\\rightbrothersproduction.models\\userregisterationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D85DDF4B-A06F-C9D3-0953-B69738EA8CCF}|RightBrothersProduction.Models\\RightBrothersProduction.Models.csproj|solutionrelative:rightbrothersproduction.models\\userregisterationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D85DDF4B-A06F-C9D3-0953-B69738EA8CCF}|RightBrothersProduction.Models\\RightBrothersProduction.Models.csproj|c:\\users\\ibrahim mohamed\\source\\repos\\rightbrothersproduction\\rightbrothersproduction.models\\rightbrothersproduction.models.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D85DDF4B-A06F-C9D3-0953-B69738EA8CCF}|RightBrothersProduction.Models\\RightBrothersProduction.Models.csproj|solutionrelative:rightbrothersproduction.models\\rightbrothersproduction.models.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D85DDF4B-A06F-C9D3-0953-B69738EA8CCF}|RightBrothersProduction.Models\\RightBrothersProduction.Models.csproj|c:\\users\\ibrahim mohamed\\source\\repos\\rightbrothersproduction\\rightbrothersproduction.models\\requestfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D85DDF4B-A06F-C9D3-0953-B69738EA8CCF}|RightBrothersProduction.Models\\RightBrothersProduction.Models.csproj|solutionrelative:rightbrothersproduction.models\\requestfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.DataAccess\\Migrations\\20250919125825_AddingTheRequestsAndVotesModels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RightBrothersProduction.DataAccess\\Migrations\\20250919125825_AddingTheRequestsAndVotesModels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A378A9C3-C401-387C-25CA-CD6B59BD0FDC}|RightBrothersProduction.DataAccess\\RightBrothersProduction.DataAccess.csproj|c:\\users\\ibrahim mohamed\\source\\repos\\rightbrothersproduction\\rightbrothersproduction.dataaccess\\rightbrothersproduction.dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A378A9C3-C401-387C-25CA-CD6B59BD0FDC}|RightBrothersProduction.DataAccess\\RightBrothersProduction.DataAccess.csproj|solutionrelative:rightbrothersproduction.dataaccess\\rightbrothersproduction.dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|c:\\users\\ibrahim mohamed\\source\\repos\\rightbrothersproduction\\rightbrothersproduction.api\\rightbrothersproduction.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|solutionrelative:rightbrothersproduction.api\\rightbrothersproduction.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D85DDF4B-A06F-C9D3-0953-B69738EA8CCF}|RightBrothersProduction.Models\\RightBrothersProduction.Models.csproj|c:\\users\\ibrahim mohamed\\source\\repos\\rightbrothersproduction\\rightbrothersproduction.models\\requestmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D85DDF4B-A06F-C9D3-0953-B69738EA8CCF}|RightBrothersProduction.Models\\RightBrothersProduction.Models.csproj|solutionrelative:rightbrothersproduction.models\\requestmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ibrahim Mohamed\\AppData\\Local\\Temp\\rnkujtqj..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Program.cs",
+              "RelativeDocumentMoniker": "RightBrothersProduction.API\\Program.cs",
+              "ToolTip": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Program.cs",
+              "RelativeToolTip": "RightBrothersProduction.API\\Program.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T22:24:47.075Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "RightBrothersProduction.API\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\appsettings.Development.json",
+              "RelativeToolTip": "RightBrothersProduction.API\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-30T10:37:17.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppBuilderExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Extensions\\AppBuilderExtensions.cs",
+              "RelativeDocumentMoniker": "RightBrothersProduction.API\\Extensions\\AppBuilderExtensions.cs",
+              "ToolTip": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Extensions\\AppBuilderExtensions.cs",
+              "RelativeToolTip": "RightBrothersProduction.API\\Extensions\\AppBuilderExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T14:31:01.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AccountEndPoints.cs",
+              "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Controllers\\AccountEndPoints.cs",
+              "RelativeDocumentMoniker": "RightBrothersProduction.API\\Controllers\\AccountEndPoints.cs",
+              "ToolTip": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Controllers\\AccountEndPoints.cs",
+              "RelativeToolTip": "RightBrothersProduction.API\\Controllers\\AccountEndPoints.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T01:40:28.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppConfigurationExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Extensions\\AppConfigurationExtensions.cs",
+              "RelativeDocumentMoniker": "RightBrothersProduction.API\\Extensions\\AppConfigurationExtensions.cs",
+              "ToolTip": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Extensions\\AppConfigurationExtensions.cs",
+              "RelativeToolTip": "RightBrothersProduction.API\\Extensions\\AppConfigurationExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T17:05:03.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\appsettings.json",
+              "RelativeDocumentMoniker": "RightBrothersProduction.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\appsettings.json",
+              "RelativeToolTip": "RightBrothersProduction.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-10T22:30:44.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IdentityUserEndPoints.cs",
+              "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Controllers\\IdentityUserEndPoints.cs",
+              "RelativeDocumentMoniker": "RightBrothersProduction.API\\Controllers\\IdentityUserEndPoints.cs",
+              "ToolTip": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Controllers\\IdentityUserEndPoints.cs",
+              "RelativeToolTip": "RightBrothersProduction.API\\Controllers\\IdentityUserEndPoints.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAAAHQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T17:23:03.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NormalRequestVote.cs",
+              "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.Models\\NormalRequestVote.cs",
+              "RelativeDocumentMoniker": "RightBrothersProduction.Models\\NormalRequestVote.cs",
+              "ToolTip": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.Models\\NormalRequestVote.cs",
+              "RelativeToolTip": "RightBrothersProduction.Models\\NormalRequestVote.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T13:08:22.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppSettings.cs",
+              "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.Models\\AppSettings.cs",
+              "RelativeDocumentMoniker": "RightBrothersProduction.Models\\AppSettings.cs",
+              "ToolTip": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.Models\\AppSettings.cs",
+              "RelativeToolTip": "RightBrothersProduction.Models\\AppSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T18:09:49.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IdentitySeeder.cs",
+              "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.DataAccess\\Seed\\IdentitySeeder.cs",
+              "RelativeDocumentMoniker": "RightBrothersProduction.DataAccess\\Seed\\IdentitySeeder.cs",
+              "ToolTip": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.DataAccess\\Seed\\IdentitySeeder.cs",
+              "RelativeToolTip": "RightBrothersProduction.DataAccess\\Seed\\IdentitySeeder.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T11:47:09.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "RightBrothersProduction.Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.Models\\ApplicationUser.cs",
+              "RelativeToolTip": "RightBrothersProduction.Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T22:20:00.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EFCoreExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Extensions\\EFCoreExtensions.cs",
+              "RelativeDocumentMoniker": "RightBrothersProduction.API\\Extensions\\EFCoreExtensions.cs",
+              "ToolTip": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Extensions\\EFCoreExtensions.cs",
+              "RelativeToolTip": "RightBrothersProduction.API\\Extensions\\EFCoreExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T16:45:10.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.DataAccess\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "RightBrothersProduction.DataAccess\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.DataAccess\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "RightBrothersProduction.DataAccess\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T12:26:08.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "RightBrothersProduction.API\\Services\\TokenService.cs",
+              "ToolTip": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Services\\TokenService.cs",
+              "RelativeToolTip": "RightBrothersProduction.API\\Services\\TokenService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCsAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T09:44:26.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserLoginModel.cs",
+              "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.Models\\UserLoginModel.cs",
+              "RelativeDocumentMoniker": "RightBrothersProduction.Models\\UserLoginModel.cs",
+              "ToolTip": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.Models\\UserLoginModel.cs",
+              "RelativeToolTip": "RightBrothersProduction.Models\\UserLoginModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T18:10:49.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "NormalRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.Models\\NormalRequest.cs",
+              "RelativeDocumentMoniker": "RightBrothersProduction.Models\\NormalRequest.cs",
+              "ToolTip": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.Models\\NormalRequest.cs",
+              "RelativeToolTip": "RightBrothersProduction.Models\\NormalRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T22:48:37.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.Models\\IRequest.cs",
+              "RelativeDocumentMoniker": "RightBrothersProduction.Models\\IRequest.cs",
+              "ToolTip": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.Models\\IRequest.cs",
+              "RelativeToolTip": "RightBrothersProduction.Models\\IRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T12:48:04.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DetailedRequestVote.cs",
+              "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.Models\\DetailedRequestVote.cs",
+              "RelativeDocumentMoniker": "RightBrothersProduction.Models\\DetailedRequestVote.cs",
+              "ToolTip": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.Models\\DetailedRequestVote.cs",
+              "RelativeToolTip": "RightBrothersProduction.Models\\DetailedRequestVote.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T13:08:22.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DetailedRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.Models\\DetailedRequest.cs",
+              "RelativeDocumentMoniker": "RightBrothersProduction.Models\\DetailedRequest.cs",
+              "ToolTip": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.Models\\DetailedRequest.cs",
+              "RelativeToolTip": "RightBrothersProduction.Models\\DetailedRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T15:38:56.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "GoogleLoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.Models\\DTOs\\GoogleLoginDto.cs",
+              "RelativeDocumentMoniker": "RightBrothersProduction.Models\\DTOs\\GoogleLoginDto.cs",
+              "ToolTip": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.Models\\DTOs\\GoogleLoginDto.cs",
+              "RelativeToolTip": "RightBrothersProduction.Models\\DTOs\\GoogleLoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T09:32:55.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ArabicIdentityErrorDescriber.cs",
+              "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Services\\Identity\\ArabicIdentityErrorDescriber.cs",
+              "RelativeDocumentMoniker": "RightBrothersProduction.API\\Services\\Identity\\ArabicIdentityErrorDescriber.cs",
+              "ToolTip": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Services\\Identity\\ArabicIdentityErrorDescriber.cs",
+              "RelativeToolTip": "RightBrothersProduction.API\\Services\\Identity\\ArabicIdentityErrorDescriber.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T14:30:56.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SkewedClock.cs",
+              "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Services\\SkewedClock.cs",
+              "RelativeDocumentMoniker": "RightBrothersProduction.API\\Services\\SkewedClock.cs",
+              "ToolTip": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Services\\SkewedClock.cs",
+              "RelativeToolTip": "RightBrothersProduction.API\\Services\\SkewedClock.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T15:42:06.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Services\\ITokenService.cs",
+              "RelativeDocumentMoniker": "RightBrothersProduction.API\\Services\\ITokenService.cs",
+              "ToolTip": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Services\\ITokenService.cs",
+              "RelativeToolTip": "RightBrothersProduction.API\\Services\\ITokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T09:43:57.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "SwaggerExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Extensions\\SwaggerExtensions.cs",
+              "RelativeDocumentMoniker": "RightBrothersProduction.API\\Extensions\\SwaggerExtensions.cs",
+              "ToolTip": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Extensions\\SwaggerExtensions.cs",
+              "RelativeToolTip": "RightBrothersProduction.API\\Extensions\\SwaggerExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T16:58:13.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IdentityExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Extensions\\IdentityExtensions.cs",
+              "RelativeDocumentMoniker": "RightBrothersProduction.API\\Extensions\\IdentityExtensions.cs",
+              "ToolTip": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Extensions\\IdentityExtensions.cs",
+              "RelativeToolTip": "RightBrothersProduction.API\\Extensions\\IdentityExtensions.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T16:40:48.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UserRegisterationModel.cs",
+              "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.Models\\UserRegisterationModel.cs",
+              "RelativeDocumentMoniker": "RightBrothersProduction.Models\\UserRegisterationModel.cs",
+              "ToolTip": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.Models\\UserRegisterationModel.cs",
+              "RelativeToolTip": "RightBrothersProduction.Models\\UserRegisterationModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T15:06:49.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "RightBrothersProduction.Models.csproj",
+              "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.Models\\RightBrothersProduction.Models.csproj",
+              "RelativeDocumentMoniker": "RightBrothersProduction.Models\\RightBrothersProduction.Models.csproj",
+              "ToolTip": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.Models\\RightBrothersProduction.Models.csproj",
+              "RelativeToolTip": "RightBrothersProduction.Models\\RightBrothersProduction.Models.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-10T22:21:20.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "20250919125825_AddingTheRequestsAndVotesModels.cs",
+              "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.DataAccess\\Migrations\\20250919125825_AddingTheRequestsAndVotesModels.cs",
+              "RelativeDocumentMoniker": "RightBrothersProduction.DataAccess\\Migrations\\20250919125825_AddingTheRequestsAndVotesModels.cs",
+              "ToolTip": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.DataAccess\\Migrations\\20250919125825_AddingTheRequestsAndVotesModels.cs",
+              "RelativeToolTip": "RightBrothersProduction.DataAccess\\Migrations\\20250919125825_AddingTheRequestsAndVotesModels.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T12:58:25.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "RequestFile.cs",
+              "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.Models\\RequestFile.cs",
+              "RelativeDocumentMoniker": "RightBrothersProduction.Models\\RequestFile.cs",
+              "ToolTip": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.Models\\RequestFile.cs",
+              "RelativeToolTip": "RightBrothersProduction.Models\\RequestFile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T15:50:30.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "RightBrothersProduction.DataAccess.csproj",
+              "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.DataAccess\\RightBrothersProduction.DataAccess.csproj",
+              "RelativeDocumentMoniker": "RightBrothersProduction.DataAccess\\RightBrothersProduction.DataAccess.csproj",
+              "ToolTip": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.DataAccess\\RightBrothersProduction.DataAccess.csproj",
+              "RelativeToolTip": "RightBrothersProduction.DataAccess\\RightBrothersProduction.DataAccess.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-11T12:25:57.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "RightBrothersProduction.API.csproj",
+              "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\RightBrothersProduction.API.csproj",
+              "RelativeDocumentMoniker": "RightBrothersProduction.API\\RightBrothersProduction.API.csproj",
+              "ToolTip": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\RightBrothersProduction.API.csproj",
+              "RelativeToolTip": "RightBrothersProduction.API\\RightBrothersProduction.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-13T12:12:25.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "RequestModels.cs",
+              "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.Models\\RequestModels.cs",
+              "RelativeDocumentMoniker": "RightBrothersProduction.Models\\RequestModels.cs",
+              "ToolTip": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.Models\\RequestModels.cs",
+              "RelativeToolTip": "RightBrothersProduction.Models\\RequestModels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T15:16:15.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "rnkujtqj..sql",
+              "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\AppData\\Local\\Temp\\rnkujtqj..sql",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\rnkujtqj..sql",
+              "ToolTip": "C:\\Users\\Ibrahim Mohamed\\AppData\\Local\\Temp\\rnkujtqj..sql",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\rnkujtqj..sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-09-11T12:20:48.421Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

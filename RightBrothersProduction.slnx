@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="RightBrothersProduction.API/RightBrothersProduction.API.csproj" />
+  <Project Path="RightBrothersProduction.DataAccess/RightBrothersProduction.DataAccess.csproj" />
+  <Project Path="RightBrothersProduction.Models/RightBrothersProduction.Models.csproj" />
+</Solution>
