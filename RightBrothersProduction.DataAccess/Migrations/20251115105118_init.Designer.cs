@@ -12,8 +12,8 @@ using RightBrothersProduction.DataAccess.Data;
 namespace RightBrothersProduction.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250927105245_AddingIdentityTablesAndSeedingTheRolesAndTheAdminAndAddingTheRequestRelatedEntities")]
-    partial class AddingIdentityTablesAndSeedingTheRolesAndTheAdminAndAddingTheRequestRelatedEntities
+    [Migration("20251115105118_init")]
+    partial class init
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -232,7 +232,7 @@ namespace RightBrothersProduction.DataAccess.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
-            modelBuilder.Entity("RightBrothersProduction.Models.DetailedRequest", b =>
+            modelBuilder.Entity("RightBrothersProduction.Models.Category", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -240,86 +240,80 @@ namespace RightBrothersProduction.DataAccess.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("requestType")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Categories");
+                });
+
+            modelBuilder.Entity("RightBrothersProduction.Models.DetailedRequest", b =>
+                {
+                    b.Property<int>("RequestId")
+                        .HasColumnType("int");
+
                     b.Property<string>("AdditionalNotes")
+                        .IsRequired()
                         .HasMaxLength(2000)
                         .HasColumnType("nvarchar(2000)");
 
                     b.Property<string>("ContributerEmail")
+                        .IsRequired()
                         .HasMaxLength(255)
                         .HasColumnType("nvarchar(255)");
 
                     b.Property<string>("ContributerPhoneNumber")
+                        .IsRequired()
                         .HasMaxLength(30)
                         .HasColumnType("nvarchar(30)");
-
-                    b.Property<DateTime>("CreatedAt")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("CreatedById")
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<string>("Description")
-                        .IsRequired()
-                        .HasMaxLength(2000)
-                        .HasColumnType("nvarchar(2000)");
 
                     b.Property<string>("DetailedDescription")
                         .IsRequired()
                         .HasMaxLength(4000)
                         .HasColumnType("nvarchar(4000)");
 
-                    b.Property<string>("RegisteredAdminId")
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<int>("Status")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Title")
-                        .IsRequired()
-                        .HasMaxLength(200)
-                        .HasColumnType("nvarchar(200)");
-
-                    b.Property<int>("Type")
-                        .HasColumnType("int");
-
                     b.Property<string>("UrgencyCause")
+                        .IsRequired()
                         .HasMaxLength(500)
                         .HasColumnType("nvarchar(500)");
 
-                    b.Property<int>("UseTimeInMonths")
+                    b.Property<int>("UsageDurationInMonths")
                         .HasColumnType("int");
 
-                    b.Property<int>("VotesCount")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("CreatedById");
-
-                    b.HasIndex("RegisteredAdminId");
+                    b.HasKey("RequestId");
 
                     b.ToTable("DetailedRequests");
                 });
 
-            modelBuilder.Entity("RightBrothersProduction.Models.DetailedRequestVote", b =>
+            modelBuilder.Entity("RightBrothersProduction.Models.RegisteredRequest", b =>
                 {
-                    b.Property<string>("UserId")
-                        .HasColumnType("nvarchar(450)");
-
                     b.Property<int>("RequestId")
                         .HasColumnType("int");
 
-                    b.Property<DateTime>("VotedAt")
+                    b.Property<string>("AssignedToId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<DateTime>("RegisteredAt")
                         .HasColumnType("datetime2");
 
-                    b.HasKey("UserId", "RequestId");
+                    b.HasKey("RequestId");
 
-                    b.HasIndex("RequestId");
+                    b.HasIndex("AssignedToId");
 
-                    b.ToTable("DetailedVotes");
+                    b.ToTable("RegisteredRequests");
                 });
 
-            modelBuilder.Entity("RightBrothersProduction.Models.NormalRequest", b =>
+            modelBuilder.Entity("RightBrothersProduction.Models.Request", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -327,10 +321,14 @@ namespace RightBrothersProduction.DataAccess.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<int>("CategoryId")
+                        .HasColumnType("int");
+
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("CreatedById")
+                        .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Description")
@@ -338,48 +336,29 @@ namespace RightBrothersProduction.DataAccess.Migrations
                         .HasMaxLength(2000)
                         .HasColumnType("nvarchar(2000)");
 
-                    b.Property<string>("RegisteredAdminId")
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<int>("Status")
-                        .HasColumnType("int");
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Title")
                         .IsRequired()
                         .HasMaxLength(200)
                         .HasColumnType("nvarchar(200)");
 
-                    b.Property<int>("Type")
-                        .HasColumnType("int");
+                    b.Property<string>("Type")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("VotesCount")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
 
+                    b.HasIndex("CategoryId");
+
                     b.HasIndex("CreatedById");
 
-                    b.HasIndex("RegisteredAdminId");
-
-                    b.ToTable("NormalRequests");
-                });
-
-            modelBuilder.Entity("RightBrothersProduction.Models.NormalRequestVote", b =>
-                {
-                    b.Property<string>("UserId")
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<int>("RequestId")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime>("VotedAt")
-                        .HasColumnType("datetime2");
-
-                    b.HasKey("UserId", "RequestId");
-
-                    b.HasIndex("RequestId");
-
-                    b.ToTable("NormalVotes");
+                    b.ToTable("Requests");
                 });
 
             modelBuilder.Entity("RightBrothersProduction.Models.RequestFile", b =>
@@ -395,15 +374,12 @@ namespace RightBrothersProduction.DataAccess.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 
-                    b.Property<int?>("DetailedRequestId")
-                        .HasColumnType("int");
-
                     b.Property<string>("FileName")
                         .IsRequired()
                         .HasMaxLength(255)
                         .HasColumnType("nvarchar(255)");
 
-                    b.Property<int?>("NormalRequestId")
+                    b.Property<int>("RequestId")
                         .HasColumnType("int");
 
                     b.Property<long>("Size")
@@ -411,11 +387,61 @@ namespace RightBrothersProduction.DataAccess.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("DetailedRequestId");
-
-                    b.HasIndex("NormalRequestId");
+                    b.HasIndex("RequestId");
 
                     b.ToTable("RequestFiles");
+                });
+
+            modelBuilder.Entity("RightBrothersProduction.Models.RequestLog", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Comment")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("RequestId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("RequestId");
+
+                    b.ToTable("RequestLogs");
+                });
+
+            modelBuilder.Entity("RightBrothersProduction.Models.Vote", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("RequestId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<DateTime>("VotedAt")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("RequestId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Votes");
                 });
 
             modelBuilder.Entity("RightBrothersProduction.Models.ApplicationUser", b =>
@@ -481,95 +507,121 @@ namespace RightBrothersProduction.DataAccess.Migrations
 
             modelBuilder.Entity("RightBrothersProduction.Models.DetailedRequest", b =>
                 {
-                    b.HasOne("RightBrothersProduction.Models.ApplicationUser", "CreatedBy")
-                        .WithMany()
-                        .HasForeignKey("CreatedById");
-
-                    b.HasOne("RightBrothersProduction.Models.ApplicationUser", "RegisteredAdmin")
-                        .WithMany()
-                        .HasForeignKey("RegisteredAdminId");
-
-                    b.Navigation("CreatedBy");
-
-                    b.Navigation("RegisteredAdmin");
-                });
-
-            modelBuilder.Entity("RightBrothersProduction.Models.DetailedRequestVote", b =>
-                {
-                    b.HasOne("RightBrothersProduction.Models.DetailedRequest", "Request")
-                        .WithMany()
-                        .HasForeignKey("RequestId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("RightBrothersProduction.Models.ApplicationUser", "User")
-                        .WithMany()
-                        .HasForeignKey("UserId")
+                    b.HasOne("RightBrothersProduction.Models.Request", "Request")
+                        .WithOne("DetailedRequest")
+                        .HasForeignKey("RightBrothersProduction.Models.DetailedRequest", "RequestId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Request");
-
-                    b.Navigation("User");
                 });
 
-            modelBuilder.Entity("RightBrothersProduction.Models.NormalRequest", b =>
+            modelBuilder.Entity("RightBrothersProduction.Models.RegisteredRequest", b =>
                 {
-                    b.HasOne("RightBrothersProduction.Models.ApplicationUser", "CreatedBy")
-                        .WithMany()
-                        .HasForeignKey("CreatedById");
-
-                    b.HasOne("RightBrothersProduction.Models.ApplicationUser", "RegisteredAdmin")
-                        .WithMany()
-                        .HasForeignKey("RegisteredAdminId");
-
-                    b.Navigation("CreatedBy");
-
-                    b.Navigation("RegisteredAdmin");
-                });
-
-            modelBuilder.Entity("RightBrothersProduction.Models.NormalRequestVote", b =>
-                {
-                    b.HasOne("RightBrothersProduction.Models.NormalRequest", "Request")
-                        .WithMany()
-                        .HasForeignKey("RequestId")
+                    b.HasOne("RightBrothersProduction.Models.ApplicationUser", "AssignedTo")
+                        .WithMany("RegisteredRequests")
+                        .HasForeignKey("AssignedToId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("RightBrothersProduction.Models.ApplicationUser", "User")
-                        .WithMany()
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                    b.HasOne("RightBrothersProduction.Models.Request", "Request")
+                        .WithOne("RegisteredRequest")
+                        .HasForeignKey("RightBrothersProduction.Models.RegisteredRequest", "RequestId")
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
+
+                    b.Navigation("AssignedTo");
 
                     b.Navigation("Request");
+                });
 
-                    b.Navigation("User");
+            modelBuilder.Entity("RightBrothersProduction.Models.Request", b =>
+                {
+                    b.HasOne("RightBrothersProduction.Models.Category", "Category")
+                        .WithMany("Requests")
+                        .HasForeignKey("CategoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("RightBrothersProduction.Models.ApplicationUser", "CreatedBy")
+                        .WithMany("RequestsCreated")
+                        .HasForeignKey("CreatedById")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Category");
+
+                    b.Navigation("CreatedBy");
                 });
 
             modelBuilder.Entity("RightBrothersProduction.Models.RequestFile", b =>
                 {
-                    b.HasOne("RightBrothersProduction.Models.DetailedRequest", "DetailedRequest")
+                    b.HasOne("RightBrothersProduction.Models.Request", "Request")
                         .WithMany("Files")
-                        .HasForeignKey("DetailedRequestId");
+                        .HasForeignKey("RequestId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
 
-                    b.HasOne("RightBrothersProduction.Models.NormalRequest", "NormalRequest")
-                        .WithMany("Files")
-                        .HasForeignKey("NormalRequestId");
-
-                    b.Navigation("DetailedRequest");
-
-                    b.Navigation("NormalRequest");
+                    b.Navigation("Request");
                 });
 
-            modelBuilder.Entity("RightBrothersProduction.Models.DetailedRequest", b =>
+            modelBuilder.Entity("RightBrothersProduction.Models.RequestLog", b =>
                 {
-                    b.Navigation("Files");
+                    b.HasOne("RightBrothersProduction.Models.Request", "Request")
+                        .WithMany("Logs")
+                        .HasForeignKey("RequestId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("Request");
                 });
 
-            modelBuilder.Entity("RightBrothersProduction.Models.NormalRequest", b =>
+            modelBuilder.Entity("RightBrothersProduction.Models.Vote", b =>
                 {
+                    b.HasOne("RightBrothersProduction.Models.Request", "Request")
+                        .WithMany("Votes")
+                        .HasForeignKey("RequestId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("RightBrothersProduction.Models.ApplicationUser", "User")
+                        .WithMany("Votes")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Request");
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("RightBrothersProduction.Models.Category", b =>
+                {
+                    b.Navigation("Requests");
+                });
+
+            modelBuilder.Entity("RightBrothersProduction.Models.Request", b =>
+                {
+                    b.Navigation("DetailedRequest")
+                        .IsRequired();
+
                     b.Navigation("Files");
+
+                    b.Navigation("Logs");
+
+                    b.Navigation("RegisteredRequest")
+                        .IsRequired();
+
+                    b.Navigation("Votes");
+                });
+
+            modelBuilder.Entity("RightBrothersProduction.Models.ApplicationUser", b =>
+                {
+                    b.Navigation("RegisteredRequests");
+
+                    b.Navigation("RequestsCreated");
+
+                    b.Navigation("Votes");
                 });
 #pragma warning restore 612, 618
         }

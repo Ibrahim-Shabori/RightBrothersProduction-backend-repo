@@ -10,46 +10,74 @@ namespace RightBrothersProduction.DataAccess.Data
         {}
 
         public DbSet<ApplicationUser> ApplicationUsers { get; set; }
-        public DbSet<NormalRequest> NormalRequests { get; set; }
+        public DbSet<Request> Requests { get; set; }
         public DbSet<DetailedRequest> DetailedRequests { get; set; }
         public DbSet<RequestFile> RequestFiles { get; set; }
-        public DbSet<NormalRequestVote> NormalVotes { get; set; }
-        public DbSet<DetailedRequestVote> DetailedVotes { get; set; }
+        public DbSet<Vote> Votes { get; set; }
+        public DbSet<RegisteredRequest> RegisteredRequests { get; set; }
+        public DbSet<RequestLog> RequestLogs { get; set; }
+        public DbSet<Category> Categories { get; set; }
+
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
 
-            modelBuilder.Entity<NormalRequestVote>()
-                .HasKey(v => new { v.UserId, v.RequestId });
 
-            modelBuilder.Entity<NormalRequestVote>()
-                .HasOne(v => v.User)
-                .WithMany()
-                .HasForeignKey(v => v.UserId)
+            // One-to-one: Request ↔ DetailedRequest
+            modelBuilder.Entity<Request>()
+                .HasOne(r => r.DetailedRequest)
+                .WithOne(dr => dr.Request)
+                .HasForeignKey<DetailedRequest>(dr => dr.RequestId)
                 .OnDelete(DeleteBehavior.Cascade);
 
-            modelBuilder.Entity<NormalRequestVote>()
+            modelBuilder.Entity<RegisteredRequest>()
+                .HasKey(r => r.RequestId);
+
+            modelBuilder.Entity<RegisteredRequest>()
+                .HasOne(r => r.Request)
+                .WithOne()
+                .HasForeignKey<RegisteredRequest>(r => r.RequestId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            // One-to-one: Request ↔ RegisteredRequest
+            modelBuilder.Entity<Request>()
+                .HasOne(r => r.RegisteredRequest)
+                .WithOne(rr => rr.Request)
+                .HasForeignKey<RegisteredRequest>(rr => rr.RequestId)
+                .OnDelete(DeleteBehavior.Restrict);
+
+
+            // ---- Votes ----
+            modelBuilder.Entity<Vote>()
                 .HasOne(v => v.Request)
-                .WithMany()
+                .WithMany(r => r.Votes)
                 .HasForeignKey(v => v.RequestId)
-                .OnDelete(DeleteBehavior.Cascade);
+                .OnDelete(DeleteBehavior.Restrict);
 
-            modelBuilder.Entity<DetailedRequestVote>()
-                .HasKey(v => new { v.UserId, v.RequestId });
+            // ---- RequestFiles ----
+            modelBuilder.Entity<RequestFile>()
+                .HasOne(f => f.Request)
+                .WithMany(r => r.Files)
+                .HasForeignKey(f => f.RequestId)
+                .OnDelete(DeleteBehavior.Restrict);  // ✅ no cascade
 
-            modelBuilder.Entity<DetailedRequestVote>()
-                .HasOne(v => v.User)
-                .WithMany()
-                .HasForeignKey(v => v.UserId)
-                .OnDelete(DeleteBehavior.Cascade);
+            // ---- RequestLogs ----
+            modelBuilder.Entity<RequestLog>()
+                .HasOne(l => l.Request)
+                .WithMany(r => r.Logs)
+                .HasForeignKey(l => l.RequestId)
+                .OnDelete(DeleteBehavior.Restrict); // ✅ no cascade
 
-            modelBuilder.Entity<DetailedRequestVote>()
-                .HasOne(v => v.Request)
-                .WithMany()
-                .HasForeignKey(v => v.RequestId)
-                .OnDelete(DeleteBehavior.Cascade);
+            // Enum to string
+            modelBuilder.Entity<Request>()
+                .Property(r => r.Status)
+                .HasConversion<string>();
+
+            modelBuilder.Entity<Request>()
+                .Property(r => r.Type)
+                .HasConversion<string>();
         }
 
     }

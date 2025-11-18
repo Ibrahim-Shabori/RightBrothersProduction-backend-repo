@@ -3,6 +3,8 @@
 using RightBrothersProduction.API.Controllers;
 using RightBrothersProduction.API.Extensions;
 using RightBrothersProduction.API.Services;
+using RightBrothersProduction.DataAccess.Repositories;
+using RightBrothersProduction.DataAccess.Repositories.IRepositories;
 
 
 namespace RightBrothersProduction.API
@@ -29,6 +31,7 @@ namespace RightBrothersProduction.API
                 .AddIdentityAuth(builder.Configuration);
 
             builder.Services.AddScoped<ITokenService, TokenService>();
+            builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
 
             var app = builder.Build();

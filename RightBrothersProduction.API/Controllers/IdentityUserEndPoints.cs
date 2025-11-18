@@ -5,7 +5,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using RightBrothersProduction.API.Services;
 using RightBrothersProduction.Models;
-using RightBrothersProduction.Models.DTOs;
+using RightBrothersProduction.API.DTOs;
+using Microsoft.AspNetCore.Http;
 
 
 namespace RightBrothersProduction.API.Controllers

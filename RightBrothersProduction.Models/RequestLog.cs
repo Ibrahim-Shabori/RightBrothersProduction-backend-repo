@@ -8,21 +8,18 @@ using System.Threading.Tasks;
 
 namespace RightBrothersProduction.Models
 {
-    public class NormalRequestVote
+    public class RequestLog
     {
-        [Required]
-        public string UserId { get; set; }
+        [Key]
+        public int Id { get; set; }
 
-        [ForeignKey(nameof(UserId))]
-        public ApplicationUser User { get; set; }
-
-        [Required]
         public int RequestId { get; set; }
 
         [ForeignKey(nameof(RequestId))]
-        public NormalRequest Request { get; set; }
+        public Request Request { get; set; }
 
-        [Required]
-        public DateTime VotedAt { get; set; }
+        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+
+        public string Comment { get; set; }
     }
 }

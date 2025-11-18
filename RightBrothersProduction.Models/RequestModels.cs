@@ -4,12 +4,6 @@ namespace RightBrothersProduction.Models
 {
     public static class RequestModels
     {
-        public enum RequestType
-        {
-            Feature,
-            Bug
-        }
-
         public enum RequestStatus
         {
             UnderReview,
@@ -17,6 +11,14 @@ namespace RightBrothersProduction.Models
             InConsideration,
             InProgress,
             Done
+        }
+
+        public enum RequestType
+        {
+            Regular,
+            Detailed,
+            Bug,
+            DetailedBug
         }
     }
 }

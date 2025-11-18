@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace RightBrothersProduction.DataAccess.Migrations
 {
     /// <inheritdoc />
-    public partial class AddingIdentityTablesAndSeedingTheRolesAndTheAdminAndAddingTheRequestRelatedEntities : Migration
+    public partial class init : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -50,6 +50,21 @@ namespace RightBrothersProduction.DataAccess.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_AspNetUsers", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Categories",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Description = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    requestType = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Categories", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -159,119 +174,83 @@ namespace RightBrothersProduction.DataAccess.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "Requests",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Title = table.Column<string>(type: "nvarchar(200)", maxLength: 200, nullable: false),
+                    Description = table.Column<string>(type: "nvarchar(2000)", maxLength: 2000, nullable: false),
+                    Status = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    CreatedAt = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    VotesCount = table.Column<int>(type: "int", nullable: false),
+                    Type = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    CategoryId = table.Column<int>(type: "int", nullable: false),
+                    CreatedById = table.Column<string>(type: "nvarchar(450)", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Requests", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_Requests_AspNetUsers_CreatedById",
+                        column: x => x.CreatedById,
+                        principalTable: "AspNetUsers",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_Requests_Categories_CategoryId",
+                        column: x => x.CategoryId,
+                        principalTable: "Categories",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "DetailedRequests",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Title = table.Column<string>(type: "nvarchar(200)", maxLength: 200, nullable: false),
-                    Description = table.Column<string>(type: "nvarchar(2000)", maxLength: 2000, nullable: false),
-                    Status = table.Column<int>(type: "int", nullable: false),
-                    Type = table.Column<int>(type: "int", nullable: false),
-                    CreatedAt = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    VotesCount = table.Column<int>(type: "int", nullable: false),
-                    CreatedById = table.Column<string>(type: "nvarchar(450)", nullable: true),
-                    RegisteredAdminId = table.Column<string>(type: "nvarchar(450)", nullable: true),
+                    RequestId = table.Column<int>(type: "int", nullable: false),
                     DetailedDescription = table.Column<string>(type: "nvarchar(4000)", maxLength: 4000, nullable: false),
-                    UseTimeInMonths = table.Column<int>(type: "int", nullable: false),
-                    UrgencyCause = table.Column<string>(type: "nvarchar(500)", maxLength: 500, nullable: true),
-                    AdditionalNotes = table.Column<string>(type: "nvarchar(2000)", maxLength: 2000, nullable: true),
-                    ContributerPhoneNumber = table.Column<string>(type: "nvarchar(30)", maxLength: 30, nullable: true),
-                    ContributerEmail = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: true)
+                    UsageDurationInMonths = table.Column<int>(type: "int", nullable: false),
+                    UrgencyCause = table.Column<string>(type: "nvarchar(500)", maxLength: 500, nullable: false),
+                    AdditionalNotes = table.Column<string>(type: "nvarchar(2000)", maxLength: 2000, nullable: false),
+                    ContributerPhoneNumber = table.Column<string>(type: "nvarchar(30)", maxLength: 30, nullable: false),
+                    ContributerEmail = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_DetailedRequests", x => x.Id);
+                    table.PrimaryKey("PK_DetailedRequests", x => x.RequestId);
                     table.ForeignKey(
-                        name: "FK_DetailedRequests_AspNetUsers_CreatedById",
-                        column: x => x.CreatedById,
-                        principalTable: "AspNetUsers",
-                        principalColumn: "Id");
-                    table.ForeignKey(
-                        name: "FK_DetailedRequests_AspNetUsers_RegisteredAdminId",
-                        column: x => x.RegisteredAdminId,
-                        principalTable: "AspNetUsers",
-                        principalColumn: "Id");
-                });
-
-            migrationBuilder.CreateTable(
-                name: "NormalRequests",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Title = table.Column<string>(type: "nvarchar(200)", maxLength: 200, nullable: false),
-                    Description = table.Column<string>(type: "nvarchar(2000)", maxLength: 2000, nullable: false),
-                    Status = table.Column<int>(type: "int", nullable: false),
-                    Type = table.Column<int>(type: "int", nullable: false),
-                    CreatedAt = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    VotesCount = table.Column<int>(type: "int", nullable: false),
-                    CreatedById = table.Column<string>(type: "nvarchar(450)", nullable: true),
-                    RegisteredAdminId = table.Column<string>(type: "nvarchar(450)", nullable: true)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_NormalRequests", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_NormalRequests_AspNetUsers_CreatedById",
-                        column: x => x.CreatedById,
-                        principalTable: "AspNetUsers",
-                        principalColumn: "Id");
-                    table.ForeignKey(
-                        name: "FK_NormalRequests_AspNetUsers_RegisteredAdminId",
-                        column: x => x.RegisteredAdminId,
-                        principalTable: "AspNetUsers",
-                        principalColumn: "Id");
-                });
-
-            migrationBuilder.CreateTable(
-                name: "DetailedVotes",
-                columns: table => new
-                {
-                    UserId = table.Column<string>(type: "nvarchar(450)", nullable: false),
-                    RequestId = table.Column<int>(type: "int", nullable: false),
-                    VotedAt = table.Column<DateTime>(type: "datetime2", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_DetailedVotes", x => new { x.UserId, x.RequestId });
-                    table.ForeignKey(
-                        name: "FK_DetailedVotes_AspNetUsers_UserId",
-                        column: x => x.UserId,
-                        principalTable: "AspNetUsers",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_DetailedVotes_DetailedRequests_RequestId",
+                        name: "FK_DetailedRequests_Requests_RequestId",
                         column: x => x.RequestId,
-                        principalTable: "DetailedRequests",
+                        principalTable: "Requests",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
-                name: "NormalVotes",
+                name: "RegisteredRequests",
                 columns: table => new
                 {
-                    UserId = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     RequestId = table.Column<int>(type: "int", nullable: false),
-                    VotedAt = table.Column<DateTime>(type: "datetime2", nullable: false)
+                    RegisteredAt = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    AssignedToId = table.Column<string>(type: "nvarchar(450)", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_NormalVotes", x => new { x.UserId, x.RequestId });
+                    table.PrimaryKey("PK_RegisteredRequests", x => x.RequestId);
                     table.ForeignKey(
-                        name: "FK_NormalVotes_AspNetUsers_UserId",
-                        column: x => x.UserId,
+                        name: "FK_RegisteredRequests_AspNetUsers_AssignedToId",
+                        column: x => x.AssignedToId,
                         principalTable: "AspNetUsers",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_NormalVotes_NormalRequests_RequestId",
+                        name: "FK_RegisteredRequests_Requests_RequestId",
                         column: x => x.RequestId,
-                        principalTable: "NormalRequests",
+                        principalTable: "Requests",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateTable(
@@ -283,22 +262,65 @@ namespace RightBrothersProduction.DataAccess.Migrations
                     FileName = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false),
                     ContentType = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
                     Size = table.Column<long>(type: "bigint", nullable: false),
-                    NormalRequestId = table.Column<int>(type: "int", nullable: true),
-                    DetailedRequestId = table.Column<int>(type: "int", nullable: true)
+                    RequestId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_RequestFiles", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_RequestFiles_DetailedRequests_DetailedRequestId",
-                        column: x => x.DetailedRequestId,
-                        principalTable: "DetailedRequests",
-                        principalColumn: "Id");
+                        name: "FK_RequestFiles_Requests_RequestId",
+                        column: x => x.RequestId,
+                        principalTable: "Requests",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Restrict);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "RequestLogs",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    RequestId = table.Column<int>(type: "int", nullable: false),
+                    CreatedAt = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    Comment = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_RequestLogs", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_RequestFiles_NormalRequests_NormalRequestId",
-                        column: x => x.NormalRequestId,
-                        principalTable: "NormalRequests",
-                        principalColumn: "Id");
+                        name: "FK_RequestLogs_Requests_RequestId",
+                        column: x => x.RequestId,
+                        principalTable: "Requests",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Restrict);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Votes",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    UserId = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    RequestId = table.Column<int>(type: "int", nullable: false),
+                    VotedAt = table.Column<DateTime>(type: "datetime2", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Votes", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_Votes_AspNetUsers_UserId",
+                        column: x => x.UserId,
+                        principalTable: "AspNetUsers",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_Votes_Requests_RequestId",
+                        column: x => x.RequestId,
+                        principalTable: "Requests",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateIndex(
@@ -341,44 +363,39 @@ namespace RightBrothersProduction.DataAccess.Migrations
                 filter: "[NormalizedUserName] IS NOT NULL");
 
             migrationBuilder.CreateIndex(
-                name: "IX_DetailedRequests_CreatedById",
-                table: "DetailedRequests",
-                column: "CreatedById");
+                name: "IX_RegisteredRequests_AssignedToId",
+                table: "RegisteredRequests",
+                column: "AssignedToId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_DetailedRequests_RegisteredAdminId",
-                table: "DetailedRequests",
-                column: "RegisteredAdminId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_DetailedVotes_RequestId",
-                table: "DetailedVotes",
+                name: "IX_RequestFiles_RequestId",
+                table: "RequestFiles",
                 column: "RequestId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_NormalRequests_CreatedById",
-                table: "NormalRequests",
-                column: "CreatedById");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_NormalRequests_RegisteredAdminId",
-                table: "NormalRequests",
-                column: "RegisteredAdminId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_NormalVotes_RequestId",
-                table: "NormalVotes",
+                name: "IX_RequestLogs_RequestId",
+                table: "RequestLogs",
                 column: "RequestId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_RequestFiles_DetailedRequestId",
-                table: "RequestFiles",
-                column: "DetailedRequestId");
+                name: "IX_Requests_CategoryId",
+                table: "Requests",
+                column: "CategoryId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_RequestFiles_NormalRequestId",
-                table: "RequestFiles",
-                column: "NormalRequestId");
+                name: "IX_Requests_CreatedById",
+                table: "Requests",
+                column: "CreatedById");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Votes_RequestId",
+                table: "Votes",
+                column: "RequestId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Votes_UserId",
+                table: "Votes",
+                column: "UserId");
         }
 
         /// <inheritdoc />
@@ -400,25 +417,31 @@ namespace RightBrothersProduction.DataAccess.Migrations
                 name: "AspNetUserTokens");
 
             migrationBuilder.DropTable(
-                name: "DetailedVotes");
+                name: "DetailedRequests");
 
             migrationBuilder.DropTable(
-                name: "NormalVotes");
+                name: "RegisteredRequests");
 
             migrationBuilder.DropTable(
                 name: "RequestFiles");
 
             migrationBuilder.DropTable(
+                name: "RequestLogs");
+
+            migrationBuilder.DropTable(
+                name: "Votes");
+
+            migrationBuilder.DropTable(
                 name: "AspNetRoles");
 
             migrationBuilder.DropTable(
-                name: "DetailedRequests");
-
-            migrationBuilder.DropTable(
-                name: "NormalRequests");
+                name: "Requests");
 
             migrationBuilder.DropTable(
                 name: "AspNetUsers");
+
+            migrationBuilder.DropTable(
+                name: "Categories");
         }
     }
 }

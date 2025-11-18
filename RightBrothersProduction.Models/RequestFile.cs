@@ -6,6 +6,7 @@ namespace RightBrothersProduction.Models
 {
     public class RequestFile
     {
+        [Key]
         public int Id { get; set; }
 
         [Required]
@@ -19,12 +20,9 @@ namespace RightBrothersProduction.Models
         [Range(1, 5 * 1024 * 1024)]   // 1 byte .. 10 MB (change if needed)
         public long Size { get; set; }
 
-        [ForeignKey(nameof(NormalRequest))]
-        public int? NormalRequestId { get; set; }
-        public NormalRequest? NormalRequest { get; set; }
+        public int RequestId { get; set; }
 
-        [ForeignKey(nameof(DetailedRequest))]
-        public int? DetailedRequestId { get; set; }
-        public DetailedRequest? DetailedRequest { get; set; }
+        [ForeignKey(nameof(RequestId))]
+        public Request Request { get; set; }
     }
 }
