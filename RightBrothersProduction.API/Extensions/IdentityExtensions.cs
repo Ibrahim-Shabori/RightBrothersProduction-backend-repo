@@ -38,9 +38,9 @@ namespace RightBrothersProduction.API.Extensions
         {
             services.AddAuthentication(options =>
             {
-                options.DefaultScheme = CookieAuthenticationDefaults.AuthenticationScheme;
-                options.DefaultAuthenticateScheme = CookieAuthenticationDefaults.AuthenticationScheme;
-                options.DefaultSignInScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+                options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
+                options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                options.DefaultSignInScheme = JwtBearerDefaults.AuthenticationScheme;
                 options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
             })
             .AddJwtBearer(options =>
@@ -53,7 +53,8 @@ namespace RightBrothersProduction.API.Extensions
                         System.Text.Encoding.UTF8.GetBytes(configuration["AppSettings:JWTSecret"]!)
                     ),
                     ValidateIssuer = false,
-                    ValidateAudience = false
+                    ValidateAudience = false,
+                    RoleClaimType = "role"
                 };
             })
             .AddGoogle(options =>

@@ -10,5 +10,6 @@ namespace RightBrothersProduction.DataAccess.Repositories.IRepositories
 {
     public interface IRequestRepository : IRepository<Request>
     {
+        Request? GetRequestWithVoters(int requestId);
     }
 }

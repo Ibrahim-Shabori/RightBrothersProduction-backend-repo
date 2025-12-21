@@ -32,6 +32,10 @@ namespace RightBrothersProduction.DataAccess.Data
                 .HasForeignKey<DetailedRequest>(dr => dr.RequestId)
                 .OnDelete(DeleteBehavior.Cascade);
 
+            modelBuilder.Entity<Request>()
+                .Property(u => u.IsRegistered)
+                .HasDefaultValue(false);
+
             modelBuilder.Entity<RegisteredRequest>()
                 .HasKey(r => r.RequestId);
 

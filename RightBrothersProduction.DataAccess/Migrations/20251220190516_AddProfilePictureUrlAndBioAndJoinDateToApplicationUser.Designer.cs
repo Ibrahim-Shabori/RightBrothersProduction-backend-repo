@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using RightBrothersProduction.DataAccess.Data;
 
@@ -11,9 +12,11 @@ using RightBrothersProduction.DataAccess.Data;
 namespace RightBrothersProduction.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20251220190516_AddProfilePictureUrlAndBioAndJoinDateToApplicationUser")]
+    partial class AddProfilePictureUrlAndBioAndJoinDateToApplicationUser
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -457,7 +460,6 @@ namespace RightBrothersProduction.DataAccess.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("FullName")
-                        .IsRequired()
                         .HasColumnType("nvarchar(150)");
 
                     b.Property<string>("ProfilePictureUrl")

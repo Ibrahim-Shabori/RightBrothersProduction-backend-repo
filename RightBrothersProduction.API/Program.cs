@@ -1,10 +1,9 @@
-
-
 using RightBrothersProduction.API.Controllers;
 using RightBrothersProduction.API.Extensions;
 using RightBrothersProduction.API.Services;
 using RightBrothersProduction.DataAccess.Repositories;
 using RightBrothersProduction.DataAccess.Repositories.IRepositories;
+using System.IdentityModel.Tokens.Jwt;
 
 
 namespace RightBrothersProduction.API
@@ -36,6 +35,8 @@ namespace RightBrothersProduction.API
 
             var app = builder.Build();
 
+            app.UseStaticFiles();
+
 
             await app.SeedIdentityAsync();
 
@@ -44,6 +45,7 @@ namespace RightBrothersProduction.API
                 .ConfigureCORS(builder.Configuration)
                 .AddIdentityAuthMiddlewares();
 
+            
 
             app.MapControllers();
 

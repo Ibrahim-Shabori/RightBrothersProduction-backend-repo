@@ -19,11 +19,12 @@ namespace RightBrothersProduction.DataAccess.Repositories
             _db = db;
             this.dbSet = _db.Set<T>();
         }
-        public void Add(T entity)
+        public async Task Add(T entity)
         {
-            dbSet.Add(entity);
+            await dbSet.AddAsync(entity);
+
         }
-        public IEnumerable<T> GetAll(Expression<Func<T, bool>>? filter = null, string? IncludeProperties = null)
+        public async Task<IEnumerable<T>> GetAll(Expression<Func<T, bool>>? filter = null, string? IncludeProperties = null)
         {
             IQueryable<T> query = dbSet;
             if (filter != null)
@@ -37,11 +38,9 @@ namespace RightBrothersProduction.DataAccess.Repositories
                     query = query.Include(includeProperty);
                 }
             }
-
-
-            return query.ToList();
+            return await query.ToListAsync();
         }
-        public T Get(Expression<Func<T, bool>> filter, string? IncludeProperties = null, bool tracked = false)
+        public async Task<T> Get(Expression<Func<T, bool>> filter, string? IncludeProperties = null, bool tracked = false)
         {
             IQueryable<T> query;
             if (tracked == true)
@@ -61,12 +60,14 @@ namespace RightBrothersProduction.DataAccess.Repositories
                     query = query.Include(includeProperty);
                 }
             }
-            return query.FirstOrDefault();
+            return await query.FirstOrDefaultAsync();
         }
+
         public void Remove(T entity)
         {
             dbSet.Remove(entity);
         }
+
         public void RemoveRange(IEnumerable<T> entities)
         {
             dbSet.RemoveRange(entities);

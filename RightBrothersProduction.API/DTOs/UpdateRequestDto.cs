@@ -11,7 +11,7 @@ namespace RightBrothersProduction.API.DTOs
         public string Title { get; set; }
         public string Description { get; set; }
 
-        public int CategoryId { get; set; }
-        public string Status { get; set; }
+        public List<int> ExistingAttachmentIds { get; set; } = new();
+        public List<IFormFile> NewAttachments { get; set; } = new();
     }
 }

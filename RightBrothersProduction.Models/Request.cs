@@ -22,6 +22,8 @@ namespace RightBrothersProduction.Models
         [Required]
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
         public int VotesCount { get; set; }
+        public bool IsRegistered { get; set; } = false;
+
 
         // 1-to-1 relationship
         public DetailedRequest DetailedRequest { get; set; }

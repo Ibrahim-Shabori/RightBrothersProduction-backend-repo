@@ -16,6 +16,6 @@ namespace RightBrothersProduction.DataAccess.Repositories.IRepositories
         ICategoryRepository Category { get; }
         IApplicationUserRepository ApplicationUser { get; }
         IRequestFileRepository RequestFile { get; }
-        void Save();
+        Task Save();
     }
 }

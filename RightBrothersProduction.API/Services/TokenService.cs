@@ -26,13 +26,13 @@ namespace RightBrothersProduction.API.Services
 
             var claims = new List<Claim>
         {
-            new Claim("UserId", user.Id),
-            new Claim(JwtRegisteredClaimNames.Sub, user.Email ?? ""),
+            new Claim(JwtRegisteredClaimNames.Sub, user.Id),
+            new Claim(JwtRegisteredClaimNames.Email, user.Email ?? ""),
             new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
         };
 
             // add role claims
-            claims.AddRange(roles.Select(r => new Claim(ClaimTypes.Role, r)));
+            claims.AddRange(roles.Select(r => new Claim("role", r)));
 
             var key = new SymmetricSecurityKey(
                 Encoding.UTF8.GetBytes(_appSettings.Value.JWTSecret!));
