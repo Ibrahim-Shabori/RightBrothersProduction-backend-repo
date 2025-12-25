@@ -11,5 +11,6 @@ namespace RightBrothersProduction.DataAccess.Repositories.IRepositories
     public interface IRequestRepository : IRepository<Request>
     {
         Request? GetRequestWithVoters(int requestId);
+        Task<bool> HasUserVoted(int requestId, string userId);
     }
 }

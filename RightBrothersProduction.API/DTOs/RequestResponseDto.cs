@@ -22,6 +22,8 @@ namespace RightBrothersProduction.API.DTOs
 
         public string CreatedById { get; set; }
 
+        public bool IsVotedByCurrentUser { get; set; } = false;
+
         public List<RequestFileDto> Files { get; set; }
     }
 }

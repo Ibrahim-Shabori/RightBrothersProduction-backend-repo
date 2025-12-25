@@ -12,8 +12,8 @@ namespace RightBrothersProduction.Models
         [ForeignKey(nameof(Request))] // 1-to-1 relationship
         public int RequestId { get; set; }
 
-        [Required]                 // ensure it’s not null in DB
-        [MaxLength(4000)]          // pick a reasonable size for long text
+        [Required]                
+        [MaxLength(4000)]          
         public string DetailedDescription { get; set; }
 
         public int UsageDurationInMonths { get; set; }
@@ -23,9 +23,9 @@ namespace RightBrothersProduction.Models
 
         [MaxLength(2000)]
         public string AdditionalNotes { get; set; }
-
-        [Phone]                    // data annotation for validation (not enforced in DB)
+                  
         [MaxLength(30)]
+        [RegularExpression(@"^\+?[1-9]\d{1,14}$", ErrorMessage = "Invalid phone number.")]
         public string ContributerPhoneNumber { get; set; }
 
         [EmailAddress]

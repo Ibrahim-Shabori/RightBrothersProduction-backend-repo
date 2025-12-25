@@ -44,5 +44,10 @@ namespace RightBrothersProduction.DataAccess.Repositories
                                .ThenInclude(v => v.User)
                                .FirstOrDefault();
         }
+
+        public async Task<bool> HasUserVoted(int requestId, string userId)
+        {
+            return await _db.Votes.AnyAsync(v => v.RequestId == requestId && v.UserId == userId);
+        }
     }
 }

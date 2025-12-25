@@ -5,10 +5,11 @@ namespace RightBrothersProduction.Models
     public class UserRegisterationModel
     {
         [Required]
+        [MinLength(3)]
         public string FullName { get; set; }
 
-        [Required]
-        public string PhoneNumber { get; set; }
+        [RegularExpression(@"^\+?[1-9]\d{1,14}$", ErrorMessage = "Invalid phone number.")]
+        public string? PhoneNumber { get; set; }
 
         [Required]
         [EmailAddress]

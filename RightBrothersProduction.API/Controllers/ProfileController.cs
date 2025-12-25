@@ -44,6 +44,23 @@ namespace RightBrothersProduction.API.Controllers
             return Ok(userProfile);
         }
 
+        [HttpGet("contact")]
+        public async Task<IActionResult> GetUserContactInfo()
+        {
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            var userContactInfo = await _userManager.Users
+                .Where(u => u.Id == userId)
+                .Select(u => new UserContactInfoDto
+                {
+                    Email = u.Email,
+                    PhoneNumber = u.PhoneNumber,
+                }).FirstOrDefaultAsync();
+            if (userContactInfo == null) {
+                return NotFound("Contact Info Not Found");
+            }
+            return Ok(userContactInfo);
+        }
+
         [HttpGet("{userId}")]
         public async Task<IActionResult> GetUserProfileForAViewer(string userId)
         {
@@ -130,7 +147,6 @@ namespace RightBrothersProduction.API.Controllers
 
             // 4. Save Changes
             var result = await _userManager.UpdateAsync(user);
-            Console.WriteLine(user.ProfilePictureUrl);
 
             if (result.Succeeded)
                 return Ok(new { message = "Profile updated successfully" });

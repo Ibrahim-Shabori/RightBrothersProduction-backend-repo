@@ -1,6 +1,7 @@
 ﻿using Azure.Core;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using RightBrothersProduction.API.DTOs;
@@ -19,13 +20,14 @@ namespace RightBrothersProduction.API.Controllers
     [Authorize]
     public class RequestController : ControllerBase
     {
-
+        private readonly UserManager<ApplicationUser> _userManager;
         private readonly IUnitOfWork _unitOfWork;
         private readonly IWebHostEnvironment _env;
         private const long MaxTotalSize = 20 * 1024 * 1024; // 20 MB
-        public RequestController(IUnitOfWork unitOfWork, IWebHostEnvironment env)
+        public RequestController(IUnitOfWork unitOfWork, UserManager<ApplicationUser> userManager, IWebHostEnvironment env)
         {
             _unitOfWork = unitOfWork;
+            _userManager = userManager;
             _env = env;
         }
 
@@ -33,9 +35,10 @@ namespace RightBrothersProduction.API.Controllers
         [AllowAnonymous]
         public async Task<IActionResult> GetRequests()
         {
-            var requests = await _unitOfWork.Request.GetAll(IncludeProperties: "CreatedBy,Category");
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            var requestsQuery = await _unitOfWork.Request.GetAllAsQueryable(IncludeProperties: "CreatedBy,Category");  
 
-            var dtoList = requests.Select(r => new
+            var dtoListQuery = requestsQuery.Select(r => new
             {
                 r.Id,
                 r.Title,
@@ -50,8 +53,12 @@ namespace RightBrothersProduction.API.Controllers
                 CreatedByName = r.CreatedBy.FullName,
                 CreatedById = r.CreatedById,
 
-                IsDetailed = (r.Type == RequestType.Detailed || r.Type == RequestType.DetailedBug)
+                IsDetailed = (r.Type == RequestType.Detailed || r.Type == RequestType.DetailedBug),
+                IsVotedByCurrentUser =  r.Votes.Any(v => v.UserId == userId)
+
             });
+
+            var dtoList = await dtoListQuery.ToListAsync();
 
             return Ok(dtoList);
         }
@@ -60,8 +67,9 @@ namespace RightBrothersProduction.API.Controllers
         [AllowAnonymous]
         public async Task<IActionResult> GetBugs()
         {
-            var bugs = await _unitOfWork.Request.GetAll(r => r.Type == RequestType.Bug || r.Type == RequestType.DetailedBug, "CreatedBy,Category");
-            var dtoList = bugs.Select(r => new
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            var bugsQuery = await _unitOfWork.Request.GetAllAsQueryable(r => r.Type == RequestType.Bug || r.Type == RequestType.DetailedBug, "CreatedBy,Category");
+            var dtoListQuery = bugsQuery.Select(r => new
             {
                 r.Id,
                 r.Title,
@@ -76,8 +84,10 @@ namespace RightBrothersProduction.API.Controllers
                 CreatedByName = r.CreatedBy.FullName,
                 CreatedById = r.CreatedById,
 
-                IsDetailed = (r.Type == RequestType.DetailedBug)
+                IsDetailed = (r.Type == RequestType.DetailedBug),
+                IsVotedByCurrentUser = r.Votes.Any(v => v.UserId == userId)
             });
+            var dtoList = await dtoListQuery.ToListAsync();
             return Ok(dtoList);
         }
 
@@ -85,8 +95,9 @@ namespace RightBrothersProduction.API.Controllers
         [AllowAnonymous]
         public async Task<IActionResult> GetFeatures()
         {
-            var features = await _unitOfWork.Request.GetAll(r => (r.Type == RequestType.Regular || r.Type == RequestType.Detailed), "CreatedBy,Category");
-            var dtoList = features.Select(r => new
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            var featuresQuery = await _unitOfWork.Request.GetAllAsQueryable(r => (r.Type == RequestType.Regular || r.Type == RequestType.Detailed), "CreatedBy,Category");
+            var dtoListQuery = featuresQuery.Select(r => new
             {
                 r.Id,
                 r.Title,
@@ -101,8 +112,10 @@ namespace RightBrothersProduction.API.Controllers
                 CreatedByName = r.CreatedBy.FullName,
                 CreatedById = r.CreatedById,
 
-                IsDetailed = (r.Type == RequestType.Detailed)
+                IsDetailed = (r.Type == RequestType.Detailed),
+                IsVotedByCurrentUser = r.Votes.Any(v => v.UserId == userId)
             });
+            var dtoList = await dtoListQuery.ToListAsync();
             return Ok(dtoList);
         }
 
@@ -281,8 +294,9 @@ namespace RightBrothersProduction.API.Controllers
         [AllowAnonymous]
         public async Task<IActionResult> GetRequestsByUser(string id)
         {
-            var requests = await _unitOfWork.Request.GetAll(r => r.CreatedById == id, IncludeProperties: "CreatedBy,Category");
-            var dtoList = requests.Select(r => new
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            var requestsQuery = await _unitOfWork.Request.GetAllAsQueryable(r => r.CreatedById == id, IncludeProperties: "CreatedBy,Category");
+            var dtoListQuery = requestsQuery.Select(r => new
             {
                 r.Id,
                 r.Title,
@@ -293,7 +307,35 @@ namespace RightBrothersProduction.API.Controllers
                 r.Type,
                 CategoryName = r.Category.Name,
                 CreatedByName = r.CreatedBy.FullName,
+                CreatedById = r.CreatedById,
+                IsVotedByCurrentUser = r.Votes.Any(v => v.UserId == userId)
+            });
+            var dtoList = await dtoListQuery.ToListAsync();
+            return Ok(dtoList);
+        }
+
+        [HttpGet("voted")]
+        public async Task<IActionResult> GetVotedRequests()
+        {
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            if (userId == null)
+                return Unauthorized();
+            var votedRequestsQuery = await _unitOfWork.Request.GetAllAsQueryable(r => r.Votes.Any(v => v.UserId == userId), IncludeProperties: "CreatedBy,Category");
+            var dtoListQuery = votedRequestsQuery.Select(r => new
+            {
+                r.Id,
+                r.Title,
+                r.Description,
+                r.Status,
+                r.CreatedAt,
+                r.VotesCount,
+                r.Type,
+                CategoryName = r.Category.Name,
+                CreatedByName = r.CreatedBy.FullName,
+                CreatedById = r.CreatedById,
+                IsVotedByCurrentUser = true,
                 });
+            var dtoList = await dtoListQuery.ToListAsync();
             return Ok(dtoList);
         }
 
@@ -407,6 +449,7 @@ namespace RightBrothersProduction.API.Controllers
         public async Task<IActionResult> CreateDetailedRequest([FromForm] CreateDetailedRequestDto dto)
         {
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            var user = await _userManager.FindByIdAsync(userId);
             if (userId == null)
                 return Unauthorized();
 
@@ -440,6 +483,12 @@ namespace RightBrothersProduction.API.Controllers
                     ContributerEmail = dto.ContributerEmail
                 };
                 await _unitOfWork.DetailedRequest.Add(detailedRequest);
+                if (dto.ContributerPhoneNumber != null || dto.ContributerPhoneNumber != "")
+                {
+                    user.PhoneNumber = dto.ContributerPhoneNumber;
+                    var result = await _userManager.UpdateAsync(user);
+                }
+
                 await _unitOfWork.Save();
             }
             return Ok(new { message = "Detailed request created", id = request.Id });

@@ -40,6 +40,23 @@ namespace RightBrothersProduction.DataAccess.Repositories
             }
             return await query.ToListAsync();
         }
+
+        public async Task<IQueryable<T>> GetAllAsQueryable(Expression<Func<T, bool>>? filter = null, string? IncludeProperties = null)
+        {
+            IQueryable<T> query = dbSet;
+            if (filter != null)
+            {
+                query = query.Where(filter);
+            }
+            if (!string.IsNullOrEmpty(IncludeProperties))
+            {
+                foreach (var includeProperty in IncludeProperties.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
+                {
+                    query = query.Include(includeProperty);
+                }
+            }
+            return await Task.FromResult(query);
+        }
         public async Task<T> Get(Expression<Func<T, bool>> filter, string? IncludeProperties = null, bool tracked = false)
         {
             IQueryable<T> query;

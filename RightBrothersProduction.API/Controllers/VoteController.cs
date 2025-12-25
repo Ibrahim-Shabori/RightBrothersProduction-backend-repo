@@ -1,13 +1,19 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Azure.Core;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using RightBrothersProduction.API.DTOs;
 using RightBrothersProduction.DataAccess.Repositories.IRepositories;
 using RightBrothersProduction.Models;
+using System.Security.Claims;
+using System.Threading.Tasks;
 
 namespace RightBrothersProduction.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class VoteController : ControllerBase
     {
         private readonly IUnitOfWork _unitOfWork;
@@ -16,9 +22,9 @@ namespace RightBrothersProduction.API.Controllers
             _unitOfWork = unitOfWork;
         }
         [HttpGet]
-        public IActionResult GetVotes()
+        public async Task<IActionResult> GetVotes()
         {
-            var votes = _unitOfWork.Vote.GetAll();
+            var votes = await _unitOfWork.Vote.GetAll();
             return Ok(votes);
         }
 
@@ -41,21 +47,40 @@ namespace RightBrothersProduction.API.Controllers
         }
 
         [HttpPost]
-        public IActionResult CreateVote([FromBody] CreateVoteDto vote)
+        public async Task<IActionResult> CreateVote([FromBody] CreateVoteDto voteDto)
         {
-            if (vote == null)
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            if (userId == null)
+                return Unauthorized();
+
+            var existingVote = await _unitOfWork.Vote.Get(vote => vote.RequestId == voteDto.RequestId && vote.UserId == userId);
+
+            var request = await _unitOfWork.Request.Get(r => r.Id == voteDto.RequestId, tracked: true);
+            if (request == null) throw new Exception("Request not found");
+
+            if (existingVote != null)
             {
-                return BadRequest();
+                // --- CASE: UN-VOTE ---
+                _unitOfWork.Vote.Remove(existingVote);
+                request.VotesCount--; // Decrement counter
             }
-            Vote newVote = new Vote
+            else
             {
-                UserId = vote.UserId,
-                RequestId = vote.RequestId,
-                VotedAt = DateTime.UtcNow
-            };
-            _unitOfWork.Vote.Add(newVote);
-            _unitOfWork.Save();
-            return Ok(newVote);
+                // --- CASE: VOTE ---
+                var newVote = new Vote
+                {
+                    RequestId = voteDto.RequestId,
+                    UserId = userId,
+                    VotedAt = DateTime.UtcNow
+                };
+                await _unitOfWork.Vote.Add(newVote);
+                request.VotesCount++; // Increment counter
+            }
+
+            await _unitOfWork.Save();
+
+            // Return the NEW count so the frontend can update immediately
+            return Ok(request.VotesCount);
         }
 
         [HttpDelete("{id}")]

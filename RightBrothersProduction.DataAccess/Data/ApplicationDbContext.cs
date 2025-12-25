@@ -60,6 +60,10 @@ namespace RightBrothersProduction.DataAccess.Data
                 .HasForeignKey(v => v.RequestId)
                 .OnDelete(DeleteBehavior.Restrict);
 
+            modelBuilder.Entity<Vote>()
+            .HasIndex(v => new { v.UserId, v.RequestId }) // Composite Index
+            .IsUnique();
+
             // ---- RequestFiles ----
             modelBuilder.Entity<RequestFile>()
                 .HasOne(f => f.Request)
