@@ -6,6 +6,7 @@ namespace RightBrothersProduction.Models
     {
         public enum RequestStatus
         {
+            Rejected,
             UnderReview,
             Published,
             InConsideration,

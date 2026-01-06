@@ -13,7 +13,7 @@ namespace RightBrothersProduction.DataAccess.Repositories
     public class Repository<T> : IRepository<T> where T : class
     {
         private readonly ApplicationDbContext _db;
-        internal DbSet<T> dbSet;
+        public DbSet<T> dbSet { get; set; }
         public Repository(ApplicationDbContext db)
         {
             _db = db;
@@ -78,6 +78,11 @@ namespace RightBrothersProduction.DataAccess.Repositories
                 }
             }
             return await query.FirstOrDefaultAsync();
+        }
+
+        public async Task<int> CountAsync(Expression<Func<T, bool>> filter)
+        {
+            return await dbSet.CountAsync(filter);
         }
 
         public void Remove(T entity)

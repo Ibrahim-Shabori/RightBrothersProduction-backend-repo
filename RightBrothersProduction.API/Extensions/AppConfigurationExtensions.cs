@@ -15,7 +15,8 @@ namespace RightBrothersProduction.API.Extensions
                     policy
                         .WithOrigins(allowedOrigins)
                         .AllowAnyHeader()
-                        .AllowAnyMethod();
+                        .AllowAnyMethod()
+                        .WithExposedHeaders("X-Pagination");
                 }
             });
 

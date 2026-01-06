@@ -1,8 +1,10 @@
 using RightBrothersProduction.API.Controllers;
 using RightBrothersProduction.API.Extensions;
 using RightBrothersProduction.API.Services;
+using RightBrothersProduction.API.Services.IServices;
 using RightBrothersProduction.DataAccess.Repositories;
 using RightBrothersProduction.DataAccess.Repositories.IRepositories;
+using RightBrothersProduction.Models.Interfaces;
 using System.IdentityModel.Tokens.Jwt;
 
 
@@ -28,9 +30,12 @@ namespace RightBrothersProduction.API
                 .AddIdentityHandlersAndStores()
                 .ConfigureIdentityOptions()
                 .AddIdentityAuth(builder.Configuration);
-
+            builder.Services.AddHttpContextAccessor();
             builder.Services.AddScoped<ITokenService, TokenService>();
             builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+            builder.Services.AddScoped<IRequestService, RequestService>();
+            builder.Services.AddScoped<IUserService, UserService>();
+            builder.Services.AddScoped<IUserContext, UserContext>();
 
 
             var app = builder.Build();

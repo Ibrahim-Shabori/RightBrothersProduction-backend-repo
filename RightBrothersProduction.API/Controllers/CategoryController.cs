@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using RightBrothersProduction.API.DTOs;
 using RightBrothersProduction.DataAccess.Repositories.IRepositories;
 using RightBrothersProduction.Models;
@@ -23,22 +24,30 @@ namespace RightBrothersProduction.API.Controllers
         [HttpGet]
         public async Task<IActionResult> GetCategories()
         {
-            var categories = await _unitOfWork.Category.GetAll();
+            var categories = await _unitOfWork.Category.dbSet.Where(c => c.IsActive == true).OrderBy(c => c.DisplayOrder).ToListAsync();
             return Ok(categories);
         }
 
         [HttpGet("requests")]
         public async Task<IActionResult> GetRequestsCategories()
         {
-            var categories = await _unitOfWork.Category.GetAll(c => c.requestType == RequestType.Regular);
+            var categories = await _unitOfWork.Category.dbSet.Where(c => (c.IsActive == true) && (c.requestType == RequestType.Regular)).OrderBy(c => c.DisplayOrder).ToListAsync();
             return Ok(categories);
         }
 
         [HttpGet("bugs")]
         public async Task<IActionResult> GetBugsCategories()
         {
-            var categories = await _unitOfWork.Category.GetAll(c => c.requestType == RequestType.Bug);
+            var categories = await _unitOfWork.Category.dbSet.Where(c => (c.IsActive == true) && (c.requestType == RequestType.Bug)).OrderBy(c => c.DisplayOrder).ToListAsync();
             return Ok(categories);
+        }
+
+        [HttpGet("orderedbytype")]
+        public async Task<IActionResult> GetCategoriesOrderedByType()
+        {
+            var requestsCategories = await _unitOfWork.Category.dbSet.Where(c => (c.IsActive == true) && (c.requestType == RequestType.Regular)).OrderBy(c => c.DisplayOrder).ToListAsync();
+            var bugsCategories = await _unitOfWork.Category.dbSet.Where(c => (c.IsActive == true) && (c.requestType == RequestType.Bug)).OrderBy(c => c.DisplayOrder).ToListAsync();
+            return Ok(requestsCategories.Concat(bugsCategories));
         }
 
         [HttpGet("{id}")]
@@ -51,40 +60,63 @@ namespace RightBrothersProduction.API.Controllers
         }
 
         [HttpPost]
-        [Authorize]
+        [Authorize(Roles = "Admin, SuperAdmin")]
         public async Task<IActionResult> Create([FromBody] CreateCategoryDto category)
         {
             Category newCategory = new();
             newCategory.Name = category.Name;
-            newCategory.Description = category.Description;
             newCategory.requestType = category.Type;
+            newCategory.IsActive = true;
+            newCategory.Color = category.Color;
+            newCategory.DisplayOrder = 100;
             await _unitOfWork.Category.Add(newCategory);
             await _unitOfWork.Save();
-            return CreatedAtAction(nameof(Get), new { id = newCategory.Id }, category);
+            return CreatedAtAction(nameof(Get), new { id = newCategory.Id }, newCategory);
+        }
+
+        [HttpPost("reorder")]
+        [Authorize(Roles = "Admin, SuperAdmin")]
+        public async Task<IActionResult> ReOrder([FromBody] List<int> orderedIds)
+        {
+            var categories = await _unitOfWork.Category.dbSet.Where(c => c.IsActive == true).OrderBy(c => c.DisplayOrder).ToListAsync();
+            Dictionary<int, int> idsNewOrder = new Dictionary<int, int>();
+
+            for (int i = 0; i < orderedIds.Count; i++) {             
+                idsNewOrder[orderedIds[i]] = i+1;
+            }
+
+            foreach (var category in categories) {
+                if (idsNewOrder.ContainsKey(category.Id) == true) {
+                    category.DisplayOrder = idsNewOrder[category.Id];
+                }
+            }
+
+            await _unitOfWork.Save();
+            return Ok();
+
         }
 
         [HttpPut("{id}")]
-        [Authorize]
+        [Authorize(Roles = "Admin, SuperAdmin")]
         public async Task<IActionResult> Update(int id, [FromBody] CreateCategoryDto category)
         {
-            var existingCategory = await _unitOfWork.Category.Get(c => c.Id == id);
+            var existingCategory = await _unitOfWork.Category.Get(c => c.Id == id, null, true);
             if (existingCategory == null)
                 return NotFound();
             existingCategory.Name = category.Name;
-            existingCategory.Description = category.Description;
-            existingCategory.requestType = category.Type;
+            existingCategory.Color = category.Color;
             await _unitOfWork.Save();
             return NoContent();
         }
 
         [HttpDelete("{id}")]
-        [Authorize]
+        [Authorize(Roles = "Admin, SuperAdmin")]
         public async Task<IActionResult> Delete(int id)
         {
-            var category = await _unitOfWork.Category.Get(c => c.Id == id);
+            var category = await _unitOfWork.Category.Get(c => c.Id == id, null, true);
             if (category == null)
                 return NotFound();
-            _unitOfWork.Category.Remove(category);
+            category.IsActive = false;
             await _unitOfWork.Save();
             return NoContent();
         }

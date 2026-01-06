@@ -8,6 +8,7 @@ using RightBrothersProduction.DataAccess.Repositories.IRepositories;
 using RightBrothersProduction.Models;
 using System.Security.Claims;
 using System.Threading.Tasks;
+using static RightBrothersProduction.Models.RequestModels;
 
 namespace RightBrothersProduction.API.Controllers
 {
@@ -56,7 +57,11 @@ namespace RightBrothersProduction.API.Controllers
             var existingVote = await _unitOfWork.Vote.Get(vote => vote.RequestId == voteDto.RequestId && vote.UserId == userId);
 
             var request = await _unitOfWork.Request.Get(r => r.Id == voteDto.RequestId, tracked: true);
-            if (request == null) throw new Exception("Request not found");
+            if (request == null) return NotFound("Request Not Found");
+            if (request.Status == RequestStatus.UnderReview)
+            {
+                return BadRequest("Cannot vote on requests that are under review.");
+            }
 
             if (existingVote != null)
             {
@@ -86,12 +91,13 @@ namespace RightBrothersProduction.API.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteVote(int id)
         {
-            var vote = await _unitOfWork.Vote.Get(v => v.Id == id);
+            var vote = await _unitOfWork.Vote.Get(v => v.Id == id, "Request", true);
             if (vote == null)
             {
                 return NotFound();
             }
             _unitOfWork.Vote.Remove(vote);
+            vote.Request.VotesCount--; // Decrement counter
             await _unitOfWork.Save();
             return Ok("Vote deleted successfully");
         }

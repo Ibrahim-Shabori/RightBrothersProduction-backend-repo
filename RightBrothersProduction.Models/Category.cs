@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,7 +14,12 @@ namespace RightBrothersProduction.Models
 
         public string Name { get; set; }
 
-        public string Description { get; set; }
+        [MaxLength(7)]
+        public string Color { get; set; } = "#3B82F6";
+
+        public bool IsActive { get; set; }
+
+        public int DisplayOrder { get; set; }
 
         public RequestType requestType { get; set; }
 

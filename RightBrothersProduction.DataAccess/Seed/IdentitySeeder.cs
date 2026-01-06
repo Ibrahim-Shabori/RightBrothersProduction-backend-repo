@@ -15,7 +15,7 @@ namespace RightBrothersProduction.DataAccess.Seed
             var userManager = scope.ServiceProvider.GetRequiredService<UserManager<ApplicationUser>>();
 
             // 1. Seed roles
-            string[] roles = { "Admin", "User" };
+            string[] roles = { "Admin", "User", "SuperAdmin" };
 
             foreach (var role in roles)
             {
@@ -42,7 +42,7 @@ namespace RightBrothersProduction.DataAccess.Seed
                 var result = await userManager.CreateAsync(adminUser, "B5shaaaBrh55m");
                 if (result.Succeeded)
                 {
-                    await userManager.AddToRoleAsync(adminUser, "Admin");
+                    await userManager.AddToRoleAsync(adminUser, "SuperAdmin");
                 }
                 else
                 {

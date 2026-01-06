@@ -16,9 +16,13 @@ namespace RightBrothersProduction.Models
         public string? ProfilePictureUrl { get; set; }
         public DateTime? DateJoined { get; set; } = DateTime.UtcNow;
         public string? Bio { get; set; }
+        public bool IsBanned { get; set; } = false;
 
         public ICollection<Request> RequestsCreated { get; set; } = new List<Request>();
         public ICollection<Vote> Votes { get; set; } = new List<Vote>();
         public ICollection<RegisteredRequest> RegisteredRequests { get; set; } = new List<RegisteredRequest>();
+        public ICollection<RequestLog> RequestLogs { get; set; } = new List<RequestLog>();
+        public ICollection<ApplicationUserRole> UserRoles { get; set; }
+
     }
 }

@@ -1,6 +1,6 @@
 ﻿using RightBrothersProduction.Models;
 
-namespace RightBrothersProduction.API.Services
+namespace RightBrothersProduction.API.Services.IServices
 {
     public interface ITokenService
     {

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
@@ -9,6 +10,8 @@ namespace RightBrothersProduction.DataAccess.Repositories.IRepositories
 {
     public interface IRepository<T> where T : class
     {
+        public DbSet<T> dbSet { get; set; }
+        Task<int> CountAsync(Expression<Func<T, bool>> filter);
         Task<IEnumerable<T>> GetAll(Expression<Func<T, bool>>? filter = null, string? IncludeProperties = null);
         Task<IQueryable<T>> GetAllAsQueryable(Expression<Func<T, bool>>? filter = null, string? IncludeProperties = null);
 

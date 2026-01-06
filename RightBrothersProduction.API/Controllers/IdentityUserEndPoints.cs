@@ -7,6 +7,7 @@ using RightBrothersProduction.API.Services;
 using RightBrothersProduction.Models;
 using RightBrothersProduction.API.DTOs;
 using Microsoft.AspNetCore.Http;
+using RightBrothersProduction.API.Services.IServices;
 
 
 namespace RightBrothersProduction.API.Controllers
@@ -44,7 +45,8 @@ namespace RightBrothersProduction.API.Controllers
                 Email = userRegisterationModel.Email,
                 FullName = userRegisterationModel.FullName,
                 UserName = userRegisterationModel.Email,
-                PhoneNumber = userRegisterationModel.PhoneNumber
+                PhoneNumber = userRegisterationModel.PhoneNumber,
+                DateJoined = DateTime.UtcNow,
             };
             var result = await userManager.CreateAsync(user, userRegisterationModel.Password);
             
@@ -86,7 +88,6 @@ namespace RightBrothersProduction.API.Controllers
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message.ToString());
                 return Results.BadRequest("Invalid Google token.");
             }
 

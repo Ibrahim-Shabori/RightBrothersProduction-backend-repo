@@ -1,10 +1,12 @@
 ﻿using Microsoft.AspNetCore.Authentication.Cookies;
+using System.IdentityModel.Tokens.Jwt;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.IdentityModel.Tokens;
 using RightBrothersProduction.DataAccess.Data;
 using RightBrothersProduction.Models;
+
 
 namespace RightBrothersProduction.API.Extensions
 {
@@ -54,7 +56,6 @@ namespace RightBrothersProduction.API.Extensions
                     ),
                     ValidateIssuer = false,
                     ValidateAudience = false,
-                    RoleClaimType = "role"
                 };
             })
             .AddGoogle(options =>

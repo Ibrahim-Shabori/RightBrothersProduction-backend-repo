@@ -18,8 +18,8 @@ namespace RightBrothersProduction.API.DTOs
         public int UsageDurationInMonths { get; set; }
         public string UrgencyCause { get; set; }
         public string AdditionalNotes { get; set; }
-        public string ContributerPhoneNumber { get; set; }
-        public string ContributerEmail { get; set; }
+        public string? ContributerPhoneNumber { get; set; }
+        public string? ContributerEmail { get; set; }
 
     }
 }

@@ -12,5 +12,6 @@ namespace RightBrothersProduction.DataAccess.Repositories.IRepositories
     {
         Request? GetRequestWithVoters(int requestId);
         Task<bool> HasUserVoted(int requestId, string userId);
+
     }
 }
