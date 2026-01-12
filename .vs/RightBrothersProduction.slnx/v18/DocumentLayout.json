@@ -7,8 +7,52 @@
       "RelativeMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|solutionrelative:rightbrothersproduction.api\\controllers\\requestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|c:\\users\\ibrahim mohamed\\source\\repos\\rightbrothersproduction\\rightbrothersproduction.api\\dtos\\updaterequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|solutionrelative:rightbrothersproduction.api\\dtos\\updaterequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|c:\\users\\ibrahim mohamed\\source\\repos\\rightbrothersproduction\\rightbrothersproduction.api\\controllers\\requestlogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|solutionrelative:rightbrothersproduction.api\\controllers\\requestlogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|c:\\users\\ibrahim mohamed\\source\\repos\\rightbrothersproduction\\rightbrothersproduction.api\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|solutionrelative:rightbrothersproduction.api\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|c:\\users\\ibrahim mohamed\\source\\repos\\rightbrothersproduction\\rightbrothersproduction.api\\dtos\\createdetailedrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|solutionrelative:rightbrothersproduction.api\\dtos\\createdetailedrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|c:\\users\\ibrahim mohamed\\source\\repos\\rightbrothersproduction\\rightbrothersproduction.api\\dtos\\requestdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|solutionrelative:rightbrothersproduction.api\\dtos\\requestdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|c:\\users\\ibrahim mohamed\\source\\repos\\rightbrothersproduction\\rightbrothersproduction.api\\dtos\\filedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|solutionrelative:rightbrothersproduction.api\\dtos\\filedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|c:\\users\\ibrahim mohamed\\source\\repos\\rightbrothersproduction\\rightbrothersproduction.api\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|solutionrelative:rightbrothersproduction.api\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|c:\\users\\ibrahim mohamed\\source\\repos\\rightbrothersproduction\\rightbrothersproduction.api\\controllers\\filescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|solutionrelative:rightbrothersproduction.api\\controllers\\filescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|c:\\users\\ibrahim mohamed\\source\\repos\\rightbrothersproduction\\rightbrothersproduction.api\\controllers\\votecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|solutionrelative:rightbrothersproduction.api\\controllers\\votecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|c:\\users\\ibrahim mohamed\\source\\repos\\rightbrothersproduction\\rightbrothersproduction.api\\dtos\\requestlogdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|solutionrelative:rightbrothersproduction.api\\dtos\\requestlogdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|c:\\users\\ibrahim mohamed\\source\\repos\\rightbrothersproduction\\rightbrothersproduction.api\\dtos\\voterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|solutionrelative:rightbrothersproduction.api\\dtos\\voterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|c:\\users\\ibrahim mohamed\\source\\repos\\rightbrothersproduction\\rightbrothersproduction.api\\controllers\\identityuserendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|solutionrelative:rightbrothersproduction.api\\controllers\\identityuserendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|c:\\users\\ibrahim mohamed\\source\\repos\\rightbrothersproduction\\rightbrothersproduction.api\\dtos\\createrequestlogdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,16 +71,8 @@
       "RelativeMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|solutionrelative:rightbrothersproduction.api\\dtos\\pageitemdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|c:\\users\\ibrahim mohamed\\source\\repos\\rightbrothersproduction\\rightbrothersproduction.api\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|solutionrelative:rightbrothersproduction.api\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|c:\\users\\ibrahim mohamed\\source\\repos\\rightbrothersproduction\\rightbrothersproduction.api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|solutionrelative:rightbrothersproduction.api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|c:\\users\\ibrahim mohamed\\source\\repos\\rightbrothersproduction\\rightbrothersproduction.api\\controllers\\filescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|solutionrelative:rightbrothersproduction.api\\controllers\\filescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|c:\\users\\ibrahim mohamed\\source\\repos\\rightbrothersproduction\\rightbrothersproduction.api\\dtos\\createcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,24 +83,12 @@
       "RelativeMoniker": "D:0:0:{D85DDF4B-A06F-C9D3-0953-B69738EA8CCF}|RightBrothersProduction.Models\\RightBrothersProduction.Models.csproj|solutionrelative:rightbrothersproduction.models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.DataAccess\\Migrations\\20260106032405_AddColorToCategoryTableAndRemoveDescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RightBrothersProduction.DataAccess\\Migrations\\20260106032405_AddColorToCategoryTableAndRemoveDescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.DataAccess\\Migrations\\20260106030457_AddIsActiveAndDisplayOrderToCategoryTabel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RightBrothersProduction.DataAccess\\Migrations\\20260106030457_AddIsActiveAndDisplayOrderToCategoryTabel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A378A9C3-C401-387C-25CA-CD6B59BD0FDC}|RightBrothersProduction.DataAccess\\RightBrothersProduction.DataAccess.csproj|c:\\users\\ibrahim mohamed\\source\\repos\\rightbrothersproduction\\rightbrothersproduction.dataaccess\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A378A9C3-C401-387C-25CA-CD6B59BD0FDC}|RightBrothersProduction.DataAccess\\RightBrothersProduction.DataAccess.csproj|solutionrelative:rightbrothersproduction.dataaccess\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|c:\\users\\ibrahim mohamed\\source\\repos\\rightbrothersproduction\\rightbrothersproduction.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|solutionrelative:rightbrothersproduction.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|c:\\users\\ibrahim mohamed\\source\\repos\\rightbrothersproduction\\rightbrothersproduction.api\\controllers\\identityuserendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|solutionrelative:rightbrothersproduction.api\\controllers\\identityuserendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|c:\\users\\ibrahim mohamed\\source\\repos\\rightbrothersproduction\\rightbrothersproduction.api\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -127,10 +151,6 @@
       "RelativeMoniker": "D:0:0:{D85DDF4B-A06F-C9D3-0953-B69738EA8CCF}|RightBrothersProduction.Models\\RightBrothersProduction.Models.csproj|solutionrelative:rightbrothersproduction.models\\requestmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|c:\\users\\ibrahim mohamed\\source\\repos\\rightbrothersproduction\\rightbrothersproduction.api\\controllers\\votecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|solutionrelative:rightbrothersproduction.api\\controllers\\votecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|c:\\users\\ibrahim mohamed\\source\\repos\\rightbrothersproduction\\rightbrothersproduction.api\\services\\iservices\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|solutionrelative:rightbrothersproduction.api\\services\\iservices\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -167,20 +187,12 @@
       "RelativeMoniker": "D:0:0:{A378A9C3-C401-387C-25CA-CD6B59BD0FDC}|RightBrothersProduction.DataAccess\\RightBrothersProduction.DataAccess.csproj|solutionrelative:rightbrothersproduction.dataaccess\\repositories\\irepositories\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|c:\\users\\ibrahim mohamed\\source\\repos\\rightbrothersproduction\\rightbrothersproduction.api\\dtos\\createdetailedrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|solutionrelative:rightbrothersproduction.api\\dtos\\createdetailedrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|c:\\users\\ibrahim mohamed\\source\\repos\\rightbrothersproduction\\rightbrothersproduction.api\\extensions\\appconfigurationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|solutionrelative:rightbrothersproduction.api\\extensions\\appconfigurationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A378A9C3-C401-387C-25CA-CD6B59BD0FDC}|RightBrothersProduction.DataAccess\\RightBrothersProduction.DataAccess.csproj|c:\\users\\ibrahim mohamed\\source\\repos\\rightbrothersproduction\\rightbrothersproduction.dataaccess\\repositories\\irepositories\\irequestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A378A9C3-C401-387C-25CA-CD6B59BD0FDC}|RightBrothersProduction.DataAccess\\RightBrothersProduction.DataAccess.csproj|solutionrelative:rightbrothersproduction.dataaccess\\repositories\\irepositories\\irequestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|c:\\users\\ibrahim mohamed\\source\\repos\\rightbrothersproduction\\rightbrothersproduction.api\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|solutionrelative:rightbrothersproduction.api\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A378A9C3-C401-387C-25CA-CD6B59BD0FDC}|RightBrothersProduction.DataAccess\\RightBrothersProduction.DataAccess.csproj|c:\\users\\ibrahim mohamed\\source\\repos\\rightbrothersproduction\\rightbrothersproduction.dataaccess\\rightbrothersproduction.dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -269,10 +281,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|c:\\users\\ibrahim mohamed\\source\\repos\\rightbrothersproduction\\rightbrothersproduction.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|solutionrelative:rightbrothersproduction.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|c:\\users\\ibrahim mohamed\\source\\repos\\rightbrothersproduction\\rightbrothersproduction.api\\dtos\\updaterequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|solutionrelative:rightbrothersproduction.api\\dtos\\updaterequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AE8E1DC8-64CD-5F53-A493-DE6800522A53}|RightBrothersProduction.API\\RightBrothersProduction.API.csproj|c:\\users\\ibrahim mohamed\\source\\repos\\rightbrothersproduction\\rightbrothersproduction.api\\dtos\\userprofileforaviewerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -468,6 +476,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{A378A9C3-C401-387C-25CA-CD6B59BD0FDC}|RightBrothersProduction.DataAccess\\RightBrothersProduction.DataAccess.csproj|c:\\users\\ibrahim mohamed\\source\\repos\\rightbrothersproduction\\rightbrothersproduction.dataaccess\\migrations\\20260105014505_addisbannedattributetoapplicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A378A9C3-C401-387C-25CA-CD6B59BD0FDC}|RightBrothersProduction.DataAccess\\RightBrothersProduction.DataAccess.csproj|solutionrelative:rightbrothersproduction.dataaccess\\migrations\\20260105014505_addisbannedattributetoapplicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A378A9C3-C401-387C-25CA-CD6B59BD0FDC}|RightBrothersProduction.DataAccess\\RightBrothersProduction.DataAccess.csproj|c:\\users\\ibrahim mohamed\\source\\repos\\rightbrothersproduction\\rightbrothersproduction.dataaccess\\migrations\\20260106032405_addcolortocategorytableandremovedescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A378A9C3-C401-387C-25CA-CD6B59BD0FDC}|RightBrothersProduction.DataAccess\\RightBrothersProduction.DataAccess.csproj|solutionrelative:rightbrothersproduction.dataaccess\\migrations\\20260106032405_addcolortocategorytableandremovedescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A378A9C3-C401-387C-25CA-CD6B59BD0FDC}|RightBrothersProduction.DataAccess\\RightBrothersProduction.DataAccess.csproj|c:\\users\\ibrahim mohamed\\source\\repos\\rightbrothersproduction\\rightbrothersproduction.dataaccess\\migrations\\20260106030457_addisactiveanddisplayordertocategorytabel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A378A9C3-C401-387C-25CA-CD6B59BD0FDC}|RightBrothersProduction.DataAccess\\RightBrothersProduction.DataAccess.csproj|solutionrelative:rightbrothersproduction.dataaccess\\migrations\\20260106030457_addisactiveanddisplayordertocategorytabel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -477,11 +493,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 25,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Program.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.API\\Program.cs",
@@ -494,20 +510,202 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FileDto.cs",
+              "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\DTOs\\FileDto.cs",
+              "RelativeDocumentMoniker": "RightBrothersProduction.API\\DTOs\\FileDto.cs",
+              "ToolTip": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\DTOs\\FileDto.cs",
+              "RelativeToolTip": "RightBrothersProduction.API\\DTOs\\FileDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T02:29:40.819Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "RequestController.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Controllers\\RequestController.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.API\\Controllers\\RequestController.cs",
-              "ToolTip": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Controllers\\RequestController.cs*",
-              "RelativeToolTip": "RightBrothersProduction.API\\Controllers\\RequestController.cs*",
-              "ViewState": "AgIAAHADAAAAAAAAAAAuwGEDAAAdAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Controllers\\RequestController.cs",
+              "RelativeToolTip": "RightBrothersProduction.API\\Controllers\\RequestController.cs",
+              "ViewState": "AgIAAOMCAAAAAAAAAAAIwEkDAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-30T19:39:08.264Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 2,
+              "Title": "RequestLogController.cs",
+              "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Controllers\\RequestLogController.cs",
+              "RelativeDocumentMoniker": "RightBrothersProduction.API\\Controllers\\RequestLogController.cs",
+              "ToolTip": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Controllers\\RequestLogController.cs",
+              "RelativeToolTip": "RightBrothersProduction.API\\Controllers\\RequestLogController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T14:21:27.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProfileController.cs",
+              "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Controllers\\ProfileController.cs",
+              "RelativeDocumentMoniker": "RightBrothersProduction.API\\Controllers\\ProfileController.cs",
+              "ToolTip": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Controllers\\ProfileController.cs",
+              "RelativeToolTip": "RightBrothersProduction.API\\Controllers\\ProfileController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-20T19:07:19.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UpdateRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\DTOs\\UpdateRequestDto.cs",
+              "RelativeDocumentMoniker": "RightBrothersProduction.API\\DTOs\\UpdateRequestDto.cs",
+              "ToolTip": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\DTOs\\UpdateRequestDto.cs",
+              "RelativeToolTip": "RightBrothersProduction.API\\DTOs\\UpdateRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T12:13:26.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RequestDetailsDto.cs",
+              "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\DTOs\\RequestDetailsDto.cs",
+              "RelativeDocumentMoniker": "RightBrothersProduction.API\\DTOs\\RequestDetailsDto.cs",
+              "ToolTip": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\DTOs\\RequestDetailsDto.cs",
+              "RelativeToolTip": "RightBrothersProduction.API\\DTOs\\RequestDetailsDto.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA0wBMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T12:36:56.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FilesController.cs",
+              "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Controllers\\FilesController.cs",
+              "RelativeDocumentMoniker": "RightBrothersProduction.API\\Controllers\\FilesController.cs",
+              "ToolTip": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Controllers\\FilesController.cs",
+              "RelativeToolTip": "RightBrothersProduction.API\\Controllers\\FilesController.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAIwDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T00:23:55.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateDetailedRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\DTOs\\CreateDetailedRequestDto.cs",
+              "RelativeDocumentMoniker": "RightBrothersProduction.API\\DTOs\\CreateDetailedRequestDto.cs",
+              "ToolTip": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\DTOs\\CreateDetailedRequestDto.cs",
+              "RelativeToolTip": "RightBrothersProduction.API\\DTOs\\CreateDetailedRequestDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T14:25:28.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RequestLogDetailsDto.cs",
+              "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\DTOs\\RequestLogDetailsDto.cs",
+              "RelativeDocumentMoniker": "RightBrothersProduction.API\\DTOs\\RequestLogDetailsDto.cs",
+              "ToolTip": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\DTOs\\RequestLogDetailsDto.cs",
+              "RelativeToolTip": "RightBrothersProduction.API\\DTOs\\RequestLogDetailsDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T12:43:59.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "VoterDto.cs",
+              "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\DTOs\\VoterDto.cs",
+              "RelativeDocumentMoniker": "RightBrothersProduction.API\\DTOs\\VoterDto.cs",
+              "ToolTip": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\DTOs\\VoterDto.cs",
+              "RelativeToolTip": "RightBrothersProduction.API\\DTOs\\VoterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T12:43:59.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "RightBrothersProduction.API\\Services\\TokenService.cs",
+              "ToolTip": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Services\\TokenService.cs",
+              "RelativeToolTip": "RightBrothersProduction.API\\Services\\TokenService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwCUAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T09:44:26.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "VoteController.cs",
+              "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Controllers\\VoteController.cs",
+              "RelativeDocumentMoniker": "RightBrothersProduction.API\\Controllers\\VoteController.cs",
+              "ToolTip": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Controllers\\VoteController.cs",
+              "RelativeToolTip": "RightBrothersProduction.API\\Controllers\\VoteController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowDcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T13:09:54.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RequestService.cs",
+              "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Services\\RequestService.cs",
+              "RelativeDocumentMoniker": "RightBrothersProduction.API\\Services\\RequestService.cs",
+              "ToolTip": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Services\\RequestService.cs",
+              "RelativeToolTip": "RightBrothersProduction.API\\Services\\RequestService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T22:16:23.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PageItemDtos.cs",
+              "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\DTOs\\PageItemDtos.cs",
+              "RelativeDocumentMoniker": "RightBrothersProduction.API\\DTOs\\PageItemDtos.cs",
+              "ToolTip": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\DTOs\\PageItemDtos.cs",
+              "RelativeToolTip": "RightBrothersProduction.API\\DTOs\\PageItemDtos.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T22:20:00.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IRequestService.cs",
+              "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Services\\IServices\\IRequestService.cs",
+              "RelativeDocumentMoniker": "RightBrothersProduction.API\\Services\\IServices\\IRequestService.cs",
+              "ToolTip": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Services\\IServices\\IRequestService.cs",
+              "RelativeToolTip": "RightBrothersProduction.API\\Services\\IServices\\IRequestService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T22:19:14.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IdentityUserEndPoints.cs",
+              "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Controllers\\IdentityUserEndPoints.cs",
+              "RelativeDocumentMoniker": "RightBrothersProduction.API\\Controllers\\IdentityUserEndPoints.cs",
+              "ToolTip": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Controllers\\IdentityUserEndPoints.cs",
+              "RelativeToolTip": "RightBrothersProduction.API\\Controllers\\IdentityUserEndPoints.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T17:23:03.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "UserContext.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Services\\UserContext.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.API\\Services\\UserContext.cs",
@@ -519,72 +717,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RequestService.cs",
-              "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Services\\RequestService.cs",
-              "RelativeDocumentMoniker": "RightBrothersProduction.API\\Services\\RequestService.cs",
-              "ToolTip": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Services\\RequestService.cs",
-              "RelativeToolTip": "RightBrothersProduction.API\\Services\\RequestService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-01T22:16:23.671Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ProfileController.cs",
-              "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Controllers\\ProfileController.cs",
-              "RelativeDocumentMoniker": "RightBrothersProduction.API\\Controllers\\ProfileController.cs",
-              "ToolTip": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Controllers\\ProfileController.cs",
-              "RelativeToolTip": "RightBrothersProduction.API\\Controllers\\ProfileController.cs",
-              "ViewState": "AgIAAJEAAAAAAAAAAAAuwBcAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-20T19:07:19.171Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PageItemDtos.cs",
-              "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\DTOs\\PageItemDtos.cs",
-              "RelativeDocumentMoniker": "RightBrothersProduction.API\\DTOs\\PageItemDtos.cs",
-              "ToolTip": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\DTOs\\PageItemDtos.cs",
-              "RelativeToolTip": "RightBrothersProduction.API\\DTOs\\PageItemDtos.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-01T22:20:00.929Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IRequestService.cs",
-              "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Services\\IServices\\IRequestService.cs",
-              "RelativeDocumentMoniker": "RightBrothersProduction.API\\Services\\IServices\\IRequestService.cs",
-              "ToolTip": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Services\\IServices\\IRequestService.cs",
-              "RelativeToolTip": "RightBrothersProduction.API\\Services\\IServices\\IRequestService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABTAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-01T22:19:14.07Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RequestLogController.cs",
-              "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Controllers\\RequestLogController.cs",
-              "RelativeDocumentMoniker": "RightBrothersProduction.API\\Controllers\\RequestLogController.cs",
-              "ToolTip": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Controllers\\RequestLogController.cs*",
-              "RelativeToolTip": "RightBrothersProduction.API\\Controllers\\RequestLogController.cs*",
-              "ViewState": "AgIAABsAAAAAAAAAAAA5wEEAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T14:21:27.165Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 13,
               "Title": "CreateRequestLogDto.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\DTOs\\CreateRequestLogDto.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.API\\DTOs\\CreateRequestLogDto.cs",
@@ -592,12 +725,11 @@
               "RelativeToolTip": "RightBrothersProduction.API\\DTOs\\CreateRequestLogDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T14:31:13.173Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-29T14:31:13.173Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 21,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.API\\Controllers\\UserController.cs",
@@ -605,25 +737,11 @@
               "RelativeToolTip": "RightBrothersProduction.API\\Controllers\\UserController.cs",
               "ViewState": "AgIAAJEAAAAAAAAAAAAmwJgAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-28T20:59:33.916Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-28T20:59:33.916Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "FilesController.cs",
-              "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Controllers\\FilesController.cs",
-              "RelativeDocumentMoniker": "RightBrothersProduction.API\\Controllers\\FilesController.cs",
-              "ToolTip": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Controllers\\FilesController.cs",
-              "RelativeToolTip": "RightBrothersProduction.API\\Controllers\\FilesController.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAowBEAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-21T00:23:55.837Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 17,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.API\\Controllers\\CategoryController.cs",
@@ -631,12 +749,11 @@
               "RelativeToolTip": "RightBrothersProduction.API\\Controllers\\CategoryController.cs",
               "ViewState": "AgIAAEIAAAAAAAAAAAAuwFQAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T15:18:08.313Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-17T15:18:08.313Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 28,
               "Title": "ApplicationUserRole.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.Models\\ApplicationUserRole.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.Models\\ApplicationUserRole.cs",
@@ -648,7 +765,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 18,
               "Title": "CreateCategoryDto.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\DTOs\\CreateCategoryDto.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.API\\DTOs\\CreateCategoryDto.cs",
@@ -656,12 +773,11 @@
               "RelativeToolTip": "RightBrothersProduction.API\\DTOs\\CreateCategoryDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T15:20:49.484Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-17T15:20:49.484Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 19,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.Models\\Category.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.Models\\Category.cs",
@@ -669,12 +785,11 @@
               "RelativeToolTip": "RightBrothersProduction.Models\\Category.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T10:46:15.934Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T10:46:15.934Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 119,
               "Title": "20260106032405_AddColorToCategoryTableAndRemoveDescription.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.DataAccess\\Migrations\\20260106032405_AddColorToCategoryTableAndRemoveDescription.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.DataAccess\\Migrations\\20260106032405_AddColorToCategoryTableAndRemoveDescription.cs",
@@ -682,12 +797,11 @@
               "RelativeToolTip": "RightBrothersProduction.DataAccess\\Migrations\\20260106032405_AddColorToCategoryTableAndRemoveDescription.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T03:24:06.057Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-06T03:24:06.057Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 120,
               "Title": "20260106030457_AddIsActiveAndDisplayOrderToCategoryTabel.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.DataAccess\\Migrations\\20260106030457_AddIsActiveAndDisplayOrderToCategoryTabel.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.DataAccess\\Migrations\\20260106030457_AddIsActiveAndDisplayOrderToCategoryTabel.cs",
@@ -695,12 +809,11 @@
               "RelativeToolTip": "RightBrothersProduction.DataAccess\\Migrations\\20260106030457_AddIsActiveAndDisplayOrderToCategoryTabel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T03:04:57.998Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-06T03:04:57.998Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 20,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.DataAccess\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.DataAccess\\Data\\ApplicationDbContext.cs",
@@ -708,25 +821,11 @@
               "RelativeToolTip": "RightBrothersProduction.DataAccess\\Data\\ApplicationDbContext.cs",
               "ViewState": "AgIAAIAAAAAAAAAAAAAUwJgAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-11T12:26:08.396Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-11T12:26:08.396Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "IdentityUserEndPoints.cs",
-              "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Controllers\\IdentityUserEndPoints.cs",
-              "RelativeDocumentMoniker": "RightBrothersProduction.API\\Controllers\\IdentityUserEndPoints.cs",
-              "ToolTip": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Controllers\\IdentityUserEndPoints.cs",
-              "RelativeToolTip": "RightBrothersProduction.API\\Controllers\\IdentityUserEndPoints.cs",
-              "ViewState": "AgIAAF8AAAAAAAAAAAAIwGYAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-13T17:23:03.997Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 22,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.API\\Services\\UserService.cs",
@@ -734,12 +833,11 @@
               "RelativeToolTip": "RightBrothersProduction.API\\Services\\UserService.cs",
               "ViewState": "AgIAAEQAAAAAAAAAAAAswE8AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-05T04:51:19.719Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-05T04:51:19.719Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 29,
               "Title": "QueryParameters.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\DTOs\\QueryParameters.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.API\\DTOs\\QueryParameters.cs",
@@ -751,7 +849,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 24,
               "Title": "IUserService.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Services\\IServices\\IUserService.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.API\\Services\\IServices\\IUserService.cs",
@@ -763,7 +861,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 27,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.Models\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.Models\\ApplicationUser.cs",
@@ -775,7 +873,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 26,
               "Title": "BanStatusDto.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\DTOs\\BanStatusDto.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.API\\DTOs\\BanStatusDto.cs",
@@ -787,7 +885,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 30,
               "Title": "IUserContext.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.Models\\Interfaces\\IUserContext.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.Models\\Interfaces\\IUserContext.cs",
@@ -799,7 +897,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 31,
               "Title": "20260105054046_AddAuthorToLogs.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.DataAccess\\Migrations\\20260105054046_AddAuthorToLogs.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.DataAccess\\Migrations\\20260105054046_AddAuthorToLogs.cs",
@@ -811,7 +909,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 33,
               "Title": "20260105052859_UpdateUserRoles.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.DataAccess\\Migrations\\20260105052859_UpdateUserRoles.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.DataAccess\\Migrations\\20260105052859_UpdateUserRoles.cs",
@@ -823,7 +921,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 34,
               "Title": "IdentitySeeder.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.DataAccess\\Seed\\IdentitySeeder.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.DataAccess\\Seed\\IdentitySeeder.cs",
@@ -835,7 +933,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 32,
               "Title": "RequestLog.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.Models\\RequestLog.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.Models\\RequestLog.cs",
@@ -847,7 +945,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 35,
               "Title": "PeriodModels.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.Models\\PeriodModels.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.Models\\PeriodModels.cs",
@@ -859,7 +957,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 36,
               "Title": "RequestModels.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.Models\\RequestModels.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.Models\\RequestModels.cs",
@@ -871,19 +969,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "VoteController.cs",
-              "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Controllers\\VoteController.cs",
-              "RelativeDocumentMoniker": "RightBrothersProduction.API\\Controllers\\VoteController.cs",
-              "ToolTip": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Controllers\\VoteController.cs",
-              "RelativeToolTip": "RightBrothersProduction.API\\Controllers\\VoteController.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAcwGMAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-29T13:09:54.805Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 116,
+              "DocumentIndex": 118,
               "Title": "20260105014505_AddIsBannedAttributeToApplicationUser.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.DataAccess\\Migrations\\20260105014505_AddIsBannedAttributeToApplicationUser.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.DataAccess\\Migrations\\20260105014505_AddIsBannedAttributeToApplicationUser.cs",
@@ -895,7 +981,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 38,
               "Title": "RequestLogForAdminsDto.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\DTOs\\RequestLogForAdminsDto.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.API\\DTOs\\RequestLogForAdminsDto.cs",
@@ -907,7 +993,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 37,
               "Title": "ITokenService.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Services\\IServices\\ITokenService.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.API\\Services\\IServices\\ITokenService.cs",
@@ -919,7 +1005,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 39,
               "Title": "PagedList.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Helpers\\PagedList.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.API\\Helpers\\PagedList.cs",
@@ -931,7 +1017,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 40,
               "Title": "RequestLogCreateDto.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\DTOs\\RequestLogCreateDto.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.API\\DTOs\\RequestLogCreateDto.cs",
@@ -943,7 +1029,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 41,
               "Title": "RequestLogDto.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\DTOs\\RequestLogDto.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.API\\DTOs\\RequestLogDto.cs",
@@ -955,7 +1041,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 42,
               "Title": "PaginationParameters.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\DTOs\\PaginationParameters.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.API\\DTOs\\PaginationParameters.cs",
@@ -967,7 +1053,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 43,
               "Title": "StatDto.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\DTOs\\StatDto.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.API\\DTOs\\StatDto.cs",
@@ -979,7 +1065,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 115,
+              "DocumentIndex": 117,
               "Title": "20260103202817_AddingIsPublicAttributeToRequestLogTable.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.DataAccess\\Migrations\\20260103202817_AddingIsPublicAttributeToRequestLogTable.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.DataAccess\\Migrations\\20260103202817_AddingIsPublicAttributeToRequestLogTable.cs",
@@ -991,7 +1077,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 44,
               "Title": "Vote.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.Models\\Vote.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.Models\\Vote.cs",
@@ -1003,7 +1089,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 45,
               "Title": "IUnitOfWork.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.DataAccess\\Repositories\\IRepositories\\IUnitOfWork.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.DataAccess\\Repositories\\IRepositories\\IUnitOfWork.cs",
@@ -1015,19 +1101,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "CreateDetailedRequestDto.cs",
-              "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\DTOs\\CreateDetailedRequestDto.cs",
-              "RelativeDocumentMoniker": "RightBrothersProduction.API\\DTOs\\CreateDetailedRequestDto.cs",
-              "ToolTip": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\DTOs\\CreateDetailedRequestDto.cs",
-              "RelativeToolTip": "RightBrothersProduction.API\\DTOs\\CreateDetailedRequestDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBUAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-26T14:25:28.792Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 46,
               "Title": "AppConfigurationExtensions.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Extensions\\AppConfigurationExtensions.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.API\\Extensions\\AppConfigurationExtensions.cs",
@@ -1039,7 +1113,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 47,
               "Title": "IRequestRepository.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.DataAccess\\Repositories\\IRepositories\\IRequestRepository.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.DataAccess\\Repositories\\IRepositories\\IRequestRepository.cs",
@@ -1051,19 +1125,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "TokenService.cs",
-              "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Services\\TokenService.cs",
-              "RelativeDocumentMoniker": "RightBrothersProduction.API\\Services\\TokenService.cs",
-              "ToolTip": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Services\\TokenService.cs",
-              "RelativeToolTip": "RightBrothersProduction.API\\Services\\TokenService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T09:44:26.289Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 48,
               "Title": "RightBrothersProduction.DataAccess.csproj",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.DataAccess\\RightBrothersProduction.DataAccess.csproj",
               "RelativeDocumentMoniker": "RightBrothersProduction.DataAccess\\RightBrothersProduction.DataAccess.csproj",
@@ -1075,7 +1137,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 49,
               "Title": "ReviewRequestDto.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\DTOs\\ReviewRequestDto.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.API\\DTOs\\ReviewRequestDto.cs",
@@ -1087,7 +1149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 50,
               "Title": "IdentityExtensions.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Extensions\\IdentityExtensions.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.API\\Extensions\\IdentityExtensions.cs",
@@ -1099,7 +1161,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 51,
               "Title": "UserLoginModel.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.Models\\UserLoginModel.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.Models\\UserLoginModel.cs",
@@ -1111,7 +1173,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 52,
               "Title": "CreateVoteDto.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\DTOs\\CreateVoteDto.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.API\\DTOs\\CreateVoteDto.cs",
@@ -1123,7 +1185,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 53,
               "Title": "RegisteredRequest.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.Models\\RegisteredRequest.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.Models\\RegisteredRequest.cs",
@@ -1135,7 +1197,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 54,
               "Title": "Repository.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.DataAccess\\Repositories\\Repository.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.DataAccess\\Repositories\\Repository.cs",
@@ -1147,7 +1209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 55,
               "Title": "IRepository.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.DataAccess\\Repositories\\IRepositories\\IRepository.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.DataAccess\\Repositories\\IRepositories\\IRepository.cs",
@@ -1159,7 +1221,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 112,
+              "DocumentIndex": 114,
               "Title": "20251229005209_AddVoteDateIndex.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.DataAccess\\Migrations\\20251229005209_AddVoteDateIndex.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.DataAccess\\Migrations\\20251229005209_AddVoteDateIndex.cs",
@@ -1171,7 +1233,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 56,
               "Title": "ApplicationUserRepository.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.DataAccess\\Repositories\\ApplicationUserRepository.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.DataAccess\\Repositories\\ApplicationUserRepository.cs",
@@ -1183,7 +1245,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 113,
+              "DocumentIndex": 115,
               "Title": "20251228235816_ConvertTheNewStatusColumnInRequestLogToBeOfTypeString.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.DataAccess\\Migrations\\20251228235816_ConvertTheNewStatusColumnInRequestLogToBeOfTypeString.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.DataAccess\\Migrations\\20251228235816_ConvertTheNewStatusColumnInRequestLogToBeOfTypeString.cs",
@@ -1195,7 +1257,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 57,
               "Title": "Request.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.Models\\Request.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.Models\\Request.cs",
@@ -1207,7 +1269,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 114,
+              "DocumentIndex": 116,
               "Title": "20251228235322_AddNewStatusColumnToRequestLog.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.DataAccess\\Migrations\\20251228235322_AddNewStatusColumnToRequestLog.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.DataAccess\\Migrations\\20251228235322_AddNewStatusColumnToRequestLog.cs",
@@ -1219,7 +1281,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 58,
               "Title": "DetailedRequest.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.Models\\DetailedRequest.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.Models\\DetailedRequest.cs",
@@ -1231,7 +1293,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 59,
               "Title": "AccountEndPoints.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Controllers\\AccountEndPoints.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.API\\Controllers\\AccountEndPoints.cs",
@@ -1243,7 +1305,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 62,
               "Title": "20251128135127_AddingTheIsRegisteredColumnToRequestTable.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.DataAccess\\Migrations\\20251128135127_AddingTheIsRegisteredColumnToRequestTable.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.DataAccess\\Migrations\\20251128135127_AddingTheIsRegisteredColumnToRequestTable.cs",
@@ -1255,7 +1317,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 60,
               "Title": "UpdateUserProfileDto.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\DTOs\\UpdateUserProfileDto.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.API\\DTOs\\UpdateUserProfileDto.cs",
@@ -1267,7 +1329,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 61,
               "Title": "UserContactInfoDto.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\DTOs\\UserContactInfoDto.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.API\\DTOs\\UserContactInfoDto.cs",
@@ -1279,7 +1341,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 63,
               "Title": "UserRegisterationModel.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.Models\\UserRegisterationModel.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.Models\\UserRegisterationModel.cs",
@@ -1291,7 +1353,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 64,
               "Title": "DetailedRequestRepository.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.DataAccess\\Repositories\\DetailedRequestRepository.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.DataAccess\\Repositories\\DetailedRequestRepository.cs",
@@ -1303,7 +1365,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 65,
               "Title": "CreateRequestDto.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\DTOs\\CreateRequestDto.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.API\\DTOs\\CreateRequestDto.cs",
@@ -1315,7 +1377,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 66,
               "Title": "RequestResponseDto.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\DTOs\\RequestResponseDto.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.API\\DTOs\\RequestResponseDto.cs",
@@ -1327,7 +1389,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 67,
               "Title": "RequestRepository.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.DataAccess\\Repositories\\RequestRepository.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.DataAccess\\Repositories\\RequestRepository.cs",
@@ -1339,7 +1401,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 68,
               "Title": "RightBrothersProduction.Models.csproj",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.Models\\RightBrothersProduction.Models.csproj",
               "RelativeDocumentMoniker": "RightBrothersProduction.Models\\RightBrothersProduction.Models.csproj",
@@ -1351,7 +1413,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 111,
+              "DocumentIndex": 113,
               "Title": "20251223144112_AddUniqueConstraintToVoteByUserIdAndRequestIdColumns.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.DataAccess\\Migrations\\20251223144112_AddUniqueConstraintToVoteByUserIdAndRequestIdColumns.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.DataAccess\\Migrations\\20251223144112_AddUniqueConstraintToVoteByUserIdAndRequestIdColumns.cs",
@@ -1363,7 +1425,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 69,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\appsettings.json",
               "RelativeDocumentMoniker": "RightBrothersProduction.API\\appsettings.json",
@@ -1375,19 +1437,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
-              "Title": "UpdateRequestDto.cs",
-              "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\DTOs\\UpdateRequestDto.cs",
-              "RelativeDocumentMoniker": "RightBrothersProduction.API\\DTOs\\UpdateRequestDto.cs",
-              "ToolTip": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\DTOs\\UpdateRequestDto.cs",
-              "RelativeToolTip": "RightBrothersProduction.API\\DTOs\\UpdateRequestDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T12:13:26.214Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 70,
               "Title": "UserProfileForAViewerDto.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\DTOs\\UserProfileForAViewerDto.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.API\\DTOs\\UserProfileForAViewerDto.cs",
@@ -1399,7 +1449,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 71,
               "Title": "UserProfileDto.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\DTOs\\UserProfileDto.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.API\\DTOs\\UserProfileDto.cs",
@@ -1411,7 +1461,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 109,
+              "DocumentIndex": 111,
               "Title": "20251220232408_AddRestrictionsToTheFullNameColumnInTheApplicationUser.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.DataAccess\\Migrations\\20251220232408_AddRestrictionsToTheFullNameColumnInTheApplicationUser.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.DataAccess\\Migrations\\20251220232408_AddRestrictionsToTheFullNameColumnInTheApplicationUser.cs",
@@ -1423,7 +1473,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 72,
               "Title": "RequestFileDto.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\DTOs\\RequestFileDto.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.API\\DTOs\\RequestFileDto.cs",
@@ -1435,7 +1485,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 73,
               "Title": "VoteRepository.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.DataAccess\\Repositories\\VoteRepository.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.DataAccess\\Repositories\\VoteRepository.cs",
@@ -1447,7 +1497,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 74,
               "Title": "RegisteredRequestRepository.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.DataAccess\\Repositories\\RegisteredRequestRepository.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.DataAccess\\Repositories\\RegisteredRequestRepository.cs",
@@ -1459,7 +1509,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 75,
               "Title": "CategoryRepository.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.DataAccess\\Repositories\\CategoryRepository.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.DataAccess\\Repositories\\CategoryRepository.cs",
@@ -1471,7 +1521,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 76,
               "Title": "RequestFileRepository.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.DataAccess\\Repositories\\RequestFileRepository.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.DataAccess\\Repositories\\RequestFileRepository.cs",
@@ -1483,7 +1533,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 77,
               "Title": "RequestLogRepository.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.DataAccess\\Repositories\\RequestLogRepository.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.DataAccess\\Repositories\\RequestLogRepository.cs",
@@ -1495,7 +1545,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 78,
               "Title": "UnitOfWork.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.DataAccess\\Repositories\\UnitOfWork.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.DataAccess\\Repositories\\UnitOfWork.cs",
@@ -1507,7 +1557,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 79,
               "Title": "IVoteRepository.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.DataAccess\\Repositories\\IRepositories\\IVoteRepository.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.DataAccess\\Repositories\\IRepositories\\IVoteRepository.cs",
@@ -1519,7 +1569,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 80,
               "Title": "IRequestLogRepository.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.DataAccess\\Repositories\\IRepositories\\IRequestLogRepository.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.DataAccess\\Repositories\\IRepositories\\IRequestLogRepository.cs",
@@ -1531,7 +1581,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 81,
               "Title": "IRequestFileRepository.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.DataAccess\\Repositories\\IRepositories\\IRequestFileRepository.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.DataAccess\\Repositories\\IRepositories\\IRequestFileRepository.cs",
@@ -1543,7 +1593,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 82,
               "Title": "BasicUserProfileDto.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\DTOs\\BasicUserProfileDto.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.API\\DTOs\\BasicUserProfileDto.cs",
@@ -1555,7 +1605,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 110,
+              "DocumentIndex": 112,
               "Title": "20251220190516_AddProfilePictureUrlAndBioAndJoinDateToApplicationUser.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.DataAccess\\Migrations\\20251220190516_AddProfilePictureUrlAndBioAndJoinDateToApplicationUser.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.DataAccess\\Migrations\\20251220190516_AddProfilePictureUrlAndBioAndJoinDateToApplicationUser.cs",
@@ -1567,7 +1617,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 83,
               "Title": "AppSettings.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.Models\\AppSettings.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.Models\\AppSettings.cs",
@@ -1579,7 +1629,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 82,
+              "DocumentIndex": 84,
               "Title": "IDetailedRequestRepository.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.DataAccess\\Repositories\\IRepositories\\IDetailedRequestRepository.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.DataAccess\\Repositories\\IRepositories\\IDetailedRequestRepository.cs",
@@ -1591,7 +1641,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 83,
+              "DocumentIndex": 85,
               "Title": "RequestFile.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.Models\\RequestFile.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.Models\\RequestFile.cs",
@@ -1603,7 +1653,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 84,
+              "DocumentIndex": 86,
               "Title": "UpdateCategoryDto.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\DTOs\\UpdateCategoryDto.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.API\\DTOs\\UpdateCategoryDto.cs",
@@ -1615,7 +1665,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 85,
+              "DocumentIndex": 87,
               "Title": "CategoryResponseDto.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\DTOs\\CategoryResponseDto.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.API\\DTOs\\CategoryResponseDto.cs",
@@ -1627,7 +1677,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 86,
+              "DocumentIndex": 88,
               "Title": "RightBrothersProduction.API.csproj",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\RightBrothersProduction.API.csproj",
               "RelativeDocumentMoniker": "RightBrothersProduction.API\\RightBrothersProduction.API.csproj",
@@ -1639,7 +1689,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 87,
+              "DocumentIndex": 89,
               "Title": "RequestWithVotersDto.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\DTOs\\RequestWithVotersDto.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.API\\DTOs\\RequestWithVotersDto.cs",
@@ -1651,7 +1701,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 88,
+              "DocumentIndex": 90,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\appsettings.Development.json",
               "RelativeDocumentMoniker": "RightBrothersProduction.API\\appsettings.Development.json",
@@ -1663,7 +1713,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 89,
+              "DocumentIndex": 91,
               "Title": "EFCoreExtensions.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Extensions\\EFCoreExtensions.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.API\\Extensions\\EFCoreExtensions.cs",
@@ -1675,7 +1725,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 90,
+              "DocumentIndex": 92,
               "Title": "GoogleLoginDto.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\DTOs\\GoogleLoginDto.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.API\\DTOs\\GoogleLoginDto.cs",
@@ -1687,7 +1737,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 91,
+              "DocumentIndex": 93,
               "Title": "AppBuilderExtensions.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Extensions\\AppBuilderExtensions.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.API\\Extensions\\AppBuilderExtensions.cs",
@@ -1699,7 +1749,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 92,
+              "DocumentIndex": 94,
               "Title": "SkewedClock.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Services\\SkewedClock.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.API\\Services\\SkewedClock.cs",
@@ -1711,7 +1761,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 93,
+              "DocumentIndex": 95,
               "Title": "SwaggerExtensions.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Extensions\\SwaggerExtensions.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.API\\Extensions\\SwaggerExtensions.cs",
@@ -1723,7 +1773,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 94,
+              "DocumentIndex": 96,
               "Title": "IRegisteredRequestRepository.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.DataAccess\\Repositories\\IRepositories\\IRegisteredRequestRepository.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.DataAccess\\Repositories\\IRepositories\\IRegisteredRequestRepository.cs",
@@ -1735,7 +1785,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 95,
+              "DocumentIndex": 97,
               "Title": "IApplicationUserRepository.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.DataAccess\\Repositories\\IRepositories\\IApplicationUserRepository.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.DataAccess\\Repositories\\IRepositories\\IApplicationUserRepository.cs",
@@ -1747,7 +1797,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 96,
+              "DocumentIndex": 98,
               "Title": "ICategoryRepository.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.DataAccess\\Repositories\\IRepositories\\ICategoryRepository.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.DataAccess\\Repositories\\IRepositories\\ICategoryRepository.cs",
@@ -1759,7 +1809,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 97,
+              "DocumentIndex": 99,
               "Title": "20251115105118_init.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.DataAccess\\Migrations\\20251115105118_init.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.DataAccess\\Migrations\\20251115105118_init.cs",
@@ -1771,7 +1821,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 100,
+              "DocumentIndex": 102,
               "Title": "20251104232642_init.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.DataAccess\\Migrations\\20251104232642_init.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.DataAccess\\Migrations\\20251104232642_init.cs",
@@ -1783,7 +1833,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 99,
+              "DocumentIndex": 101,
               "Title": "20251104232853_init.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.DataAccess\\Migrations\\20251104232853_init.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.DataAccess\\Migrations\\20251104232853_init.cs",
@@ -1795,7 +1845,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 98,
+              "DocumentIndex": 100,
               "Title": "20251104233126_init.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.DataAccess\\Migrations\\20251104233126_init.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.DataAccess\\Migrations\\20251104233126_init.cs",
@@ -1807,7 +1857,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 101,
+              "DocumentIndex": 103,
               "Title": "20251104232156_init.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.DataAccess\\Migrations\\20251104232156_init.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.DataAccess\\Migrations\\20251104232156_init.cs",
@@ -1819,7 +1869,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 102,
+              "DocumentIndex": 104,
               "Title": "20251104230633_init.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.DataAccess\\Migrations\\20251104230633_init.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.DataAccess\\Migrations\\20251104230633_init.cs",
@@ -1831,7 +1881,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 103,
+              "DocumentIndex": 105,
               "Title": "20251104225741_init.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.DataAccess\\Migrations\\20251104225741_init.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.DataAccess\\Migrations\\20251104225741_init.cs",
@@ -1843,7 +1893,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 104,
+              "DocumentIndex": 106,
               "Title": "20251104222612_init.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.DataAccess\\Migrations\\20251104222612_init.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.DataAccess\\Migrations\\20251104222612_init.cs",
@@ -1855,7 +1905,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 105,
+              "DocumentIndex": 107,
               "Title": "20251104222148_init.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.DataAccess\\Migrations\\20251104222148_init.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.DataAccess\\Migrations\\20251104222148_init.cs",
@@ -1867,7 +1917,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 106,
+              "DocumentIndex": 108,
               "Title": "ArabicIdentityErrorDescriber.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.API\\Services\\Identity\\ArabicIdentityErrorDescriber.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.API\\Services\\Identity\\ArabicIdentityErrorDescriber.cs",
@@ -1879,7 +1929,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 107,
+              "DocumentIndex": 109,
               "Title": "20250919125825_AddingTheRequestsAndVotesModels.cs",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\source\\repos\\RightBrothersProduction\\RightBrothersProduction.DataAccess\\Migrations\\20250919125825_AddingTheRequestsAndVotesModels.cs",
               "RelativeDocumentMoniker": "RightBrothersProduction.DataAccess\\Migrations\\20250919125825_AddingTheRequestsAndVotesModels.cs",
@@ -1890,7 +1940,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 108,
+              "DocumentIndex": 110,
               "Title": "rnkujtqj..sql",
               "DocumentMoniker": "C:\\Users\\Ibrahim Mohamed\\AppData\\Local\\Temp\\rnkujtqj..sql",
               "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\rnkujtqj..sql",

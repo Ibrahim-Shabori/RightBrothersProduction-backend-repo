@@ -29,8 +29,10 @@ namespace RightBrothersProduction.API.Services
         {
             new Claim(JwtRegisteredClaimNames.Sub, user.Id),
             new Claim(JwtRegisteredClaimNames.Email, user.Email ?? ""),
-            new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
-        };
+            new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
+            new Claim("fullName", user.FullName),
+            new Claim("profilePictureUrl", user.ProfilePictureUrl)
+            };
 
             // add role claims
             claims.AddRange(roles.Select(r => new Claim("role", r)));

@@ -683,6 +683,43 @@ namespace RightBrothersProduction.API.Controllers
             return Ok(dto);
         }
 
+        [HttpGet("request/{id}")]
+        public async Task<IActionResult> GetRequestDetails([FromRoute]int id)
+        {
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            bool isAdmin = User.IsInRole("Admin") || User.IsInRole("SuperAdmin");
+
+            var requestQuery = _unitOfWork.Request.dbSet.Where(r => r.Id == id).Select( r => new RequestDetailsDto
+            {
+                Id = r.Id,
+                Title = r.Title,
+                Description = r.Description,
+                Status = r.Status,
+                Type = r.Type,
+                VotesCount = r.VotesCount,
+                CategoryName = r.Category.Name,
+                CategoryColor = r.Category.Color,
+                IsDetailed = (r.DetailedRequest != null),
+                DetailedDescription = (r.DetailedRequest != null) ? r.DetailedRequest.DetailedDescription : null,
+                ContributorEmail = (r.DetailedRequest != null && (isAdmin || userId == r.CreatedById)) ? r.DetailedRequest.ContributerEmail : null,
+                ContributorPhoneNumber = (r.DetailedRequest != null && (isAdmin || userId == r.CreatedById)) ? r.DetailedRequest.ContributerPhoneNumber : null,
+                AdditionalNotes = (r.DetailedRequest != null) ? r.DetailedRequest.AdditionalNotes : null,
+                UrgencyCause = (r.DetailedRequest != null) ? r.DetailedRequest.UrgencyCause : null,
+                UsageDuration = (r.DetailedRequest != null) ? r.DetailedRequest.UsageDurationInMonths : null,
+                CreatedAt = r.CreatedAt,
+                CreatedById = r.CreatedById,
+                CreatedByName = r.CreatedBy.FullName,
+                CreatedByPictureUrl = r.CreatedBy.ProfilePictureUrl,
+                Files = (userId == r.CreatedById || isAdmin) ? r.Files.Select(f => new FileDto {Id = f.Id, Link = f.FileName}).ToList() : null,
+            });
+            var request = await requestQuery.FirstOrDefaultAsync();
+            if (request == null)
+            {
+                return NotFound($"No request found with the id {id}");
+            }
+            return Ok(request);
+        }
+
         [HttpPost]
         public async Task<IActionResult> Create([FromForm] CreateRequestDto dto)
         {
@@ -769,11 +806,12 @@ namespace RightBrothersProduction.API.Controllers
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> Update(int id, [FromForm] UpdateRequestDto dto)
+        public async Task<IActionResult> Update([FromRoute] int id, [FromForm] UpdateRequestDto dto)
         {
+            Console.WriteLine($"Number of attachments are: {dto.Attachments?.Count()}");
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
             // Fetch request + its existing files
-            var request =  await _unitOfWork.Request.Get(r => r.Id == id, "Files", true);
+            var request =  await _unitOfWork.Request.Get(r => r.Id == id, "Files,DetailedRequest", true);
 
             if (request == null)
                 return NotFound();
@@ -782,13 +820,13 @@ namespace RightBrothersProduction.API.Controllers
             {
                 return Unauthorized();
             }
-                // Step 1: Calculate size of existing files that user wants to keep
-                long existingSize = request.Files
-                .Where(f => dto.ExistingAttachmentIds.Contains(f.Id))
-                .Sum(f => f.Size);
+            // Step 1: Calculate size of existing files that user wants to keep
+            long existingSize = (dto.OldFilesToDelete!= null) ? request.Files
+            .Where(f => !dto.OldFilesToDelete.Contains(f.Id))
+            .Sum(f => f.Size) : 0;
 
             // Step 2: Calculate size of new attachments being uploaded
-            long newFilesSize = dto.NewAttachments.Sum(f => f.Length);
+            long newFilesSize = dto.Attachments?.Sum(f => f.Length)??0;
 
             long totalSize = existingSize + newFilesSize;
 
@@ -799,9 +837,10 @@ namespace RightBrothersProduction.API.Controllers
             }
 
             // Step 4: Remove deleted files
-            var removedFiles = request.Files
-                .Where(f => !dto.ExistingAttachmentIds.Contains(f.Id))
-                .ToList();
+            var removedFiles = (dto.OldFilesToDelete != null)? request.Files
+                .Where(f => dto.OldFilesToDelete.Contains(f.Id))
+                .ToList() : new List<RequestFile>();
+
             string uploadPath = Path.Combine(_env.ContentRootPath, "uploads", "requests", request.Id.ToString());
             string filePath;
             foreach (var file in removedFiles)
@@ -812,11 +851,24 @@ namespace RightBrothersProduction.API.Controllers
             }
 
             // Step 5: Save new files to storage
-            await SaveRequestAttachments(request.Id, dto.NewAttachments);
+            if (dto.Attachments != null && dto.Attachments.Count > 0)
+            {
+                await SaveRequestAttachments(request.Id, dto.Attachments);
+                await _unitOfWork.Save();
+            }
 
             // Step 6: Update request fields
             request.Title = dto.Title;
             request.Description = dto.Description;
+            request.CategoryId = dto.CategoryId;
+            if (request.DetailedRequest != null)
+            {
+                request.DetailedRequest.AdditionalNotes = dto.AdditionalNotes;
+                request.DetailedRequest.DetailedDescription = dto.DetailedDescription;
+                request.DetailedRequest.UsageDurationInMonths = dto.UsageDurationInMonths?? 0;
+                request.DetailedRequest.ContributerEmail = dto.ContributerEmail;
+                request.DetailedRequest.ContributerPhoneNumber = dto.ContributerPhoneNumber;
+            }
 
             await _unitOfWork.Save();
 

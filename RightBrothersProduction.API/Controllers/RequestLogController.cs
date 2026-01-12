@@ -47,6 +47,30 @@ namespace RightBrothersProduction.API.Controllers
         }
 
 
+        [HttpGet("request/{id}")]
+        public async Task<IActionResult> GetRequestLogsForRequestDetailsPage([FromRoute]int id)
+        {
+            bool isAdmin = User.IsInRole("Admin") || User.IsInRole("SuperAdmin");
+            
+            var logsQuery = _unitOfWork.RequestLog.dbSet.Where(l => l.RequestId == id);
+            if (isAdmin == false)
+            {
+                logsQuery = logsQuery.Where(l => l.IsPublic == true);
+            }
+            var nlogsQuery = logsQuery.Select(l => new RequestLogDetailsDto
+            {
+                Comment = l.Comment,
+                CreatedAt = l.CreatedAt,
+                IsPublic = l.IsPublic,
+                LoggerName = l.CreatedBy.FullName,
+                LoggerPictureUrl = l.CreatedBy.ProfilePictureUrl,
+                NewStatus = l.NewStatus,
+            });
+
+            var logs = await nlogsQuery.ToListAsync();
+            return Ok(logs);
+        }
+
         [Authorize(Roles = "Admin, SuperAdmin")]
         [HttpPost]
         public async Task<IActionResult> CreateRequestLog([FromBody] CreateRequestLogDto logDto)

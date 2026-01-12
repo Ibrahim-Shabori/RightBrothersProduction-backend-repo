@@ -42,29 +42,40 @@ namespace RightBrothersProduction.API.Controllers
         [HttpGet("requests/download/{requestId}/{fileName}")]
         public async Task<IActionResult> DownloadRequestFile(int requestId, string fileName)
         {
+            // 1. Database Check (Keep your existing logic)
             var request = await _unitOfWork.Request.Get(r => r.Id == requestId);
             if (request == null) return NotFound("Request not found.");
 
+            // 2. Authorization Check (Keep your existing logic)
             var currentUserId = User.FindFirstValue(ClaimTypes.NameIdentifier);
-            if (request.CreatedById != currentUserId && !User.IsInRole("Admin"))
+            if (request.CreatedById != currentUserId && !User.IsInRole("Admin") && !User.IsInRole("SuperAdmin"))
             {
                 return Forbid();
             }
 
+            // 3. SECURITY FIX: Sanitize the filename to prevent ".." hacking
+            var safeFileName = Path.GetFileName(fileName);
+
             var folderPath = Path.Combine(_env.ContentRootPath, "uploads", "requests", requestId.ToString());
-            var filePath = Path.Combine(folderPath, fileName);
+            var filePath = Path.Combine(folderPath, safeFileName);
 
             if (!System.IO.File.Exists(filePath))
                 return NotFound("File not found on server.");
 
+            // 4. Content Type Logic
             var provider = new FileExtensionContentTypeProvider();
-            if (!provider.TryGetContentType(fileName, out var contentType))
+            if (!provider.TryGetContentType(safeFileName, out var contentType))
             {
                 contentType = "application/octet-stream";
             }
 
-            var bytes = await System.IO.File.ReadAllBytesAsync(filePath);
-            return File(bytes, contentType, fileName);
+            // 5. PERFORMANCE FIX: Return a Stream, do NOT read all bytes
+            // We open the file stream and pass it to the File() helper. 
+            // ASP.NET Core will handle reading it in chunks.
+            var fileStream = new FileStream(filePath, FileMode.Open, FileAccess.Read);
+
+            // returning File(stream, type, name) automatically sets Content-Disposition: attachment
+            return File(fileStream, contentType, safeFileName);
         }
 
         // =================================================================

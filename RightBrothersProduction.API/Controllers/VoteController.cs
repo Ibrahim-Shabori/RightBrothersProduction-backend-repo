@@ -40,12 +40,27 @@ namespace RightBrothersProduction.API.Controllers
             return Ok(vote);
         }
 
-        [HttpGet("request/{requestId}")]
-        public IActionResult GetVotesByRequest(int requestId)
+        [HttpGet("request/{id}")]
+        public async Task<IActionResult> GetVotersByRequestId([FromRoute]int id)
         {
-            var votes = _unitOfWork.Vote.GetAll(v => v.RequestId == requestId);
-            return Ok(votes);
+            var votersQuery = _unitOfWork.Vote.dbSet.Where(v => v.RequestId == id).Select(v => new VoterDto
+            {
+                Id = v.User.Id,
+                Name = v.User.FullName,
+                PictureUrl = v.User.ProfilePictureUrl,
+            });
+            var voters = await votersQuery.ToListAsync();
+            return Ok(voters);
         }
+
+        [HttpGet("checkvoted/{id}")]
+        public async Task<IActionResult> CheckIfVoted(int id) {
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            var result = await _unitOfWork.Vote.dbSet.Where(v => v.RequestId == id).AnyAsync(v => v.UserId == userId);
+            return Ok(result);
+        }
+
+        
 
         [HttpPost]
         public async Task<IActionResult> CreateVote([FromBody] CreateVoteDto voteDto)
